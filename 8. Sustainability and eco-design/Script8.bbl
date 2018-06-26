@@ -1,4 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{anderssonLifeCycleAssessment1999}
+Karin Andersson and Thomas Ohlsson.
+\newblock Life cycle assessment of bread produced on different scales.
+\newblock {\em The International Journal of Life Cycle Assessment},
+  4(1):25--40, January 1999.
 
 \bibitem{brundtland1987our}
 Gro~Harlem Brundtland, Mansour Khalid, Susanna Agnelli, Sali {Al-Athel},
@@ -11,6 +17,12 @@ Gro~Harlem Brundtland, Mansour Khalid, Susanna Agnelli, Sali {Al-Athel},
   {{Development}}: {{Our Common Future}}.
 \newblock Technical report, {World Commission on Environment and Development
   (WCED)}, 1987.
+
+\bibitem{consultants2000eco}
+P~Consultants.
+\newblock Eco-indicator 99 {{Manual}} for designers.
+\newblock {\em Ministry of Housing, Spatial Planning and the Environment},
+  2000.
 
 \bibitem{cooperFutureDistributionProduction2011}
 James Cooper, Rachel Lombardi, David Boardman, and Cynthia {Carliell-Marquet}.
@@ -36,6 +48,13 @@ Antonio Federico, Fabio Musmeci, and D~Proietti~Mancini.
 \newblock {{MIPS}} of the {{Italian}} mobile telephone network.
 \newblock In {\em Pr{\'e}sent{\'e} {\`a}: {{Open Meeting}} of the {{Global
   Environmental Change Research Community}}}, volume~6, 2001.
+
+\bibitem{goedkoop2009recipe}
+Mark Goedkoop, Reinout Heijungs, Mark Huijbregts, An~De~Schryver, Jaap Struijs,
+  and Rosalie Van~Zelm.
+\newblock {{ReCiPe}} 2008.
+\newblock {\em A life cycle impact assessment method which comprises harmonised
+  category indicators at the midpoint and the endpoint level}, 1, 2009.
 
 \bibitem{janinDemarcheEcoconceptionEntreprise2000}
 Marc Janin.
