@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Products and sustainability}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Environmental impacts}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Resource consumption, depletion and restoration}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Pollution}{4}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Measuring enivonmental impacts}{5}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}About irreversibility, or why less is better}{6}{subsubsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2}Eco-efficiency of products}{7}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Product life cycle}{8}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Functional unit}{8}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}The role of design in product eco-efficiency}{9}{subsubsection.1.2.3}
+\contentsline {section}{\numberline {2}Eco-design}{10}{section.2}

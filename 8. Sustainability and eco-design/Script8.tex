@@ -30,8 +30,12 @@
 This lecture discusses the implications of PDD in terms of environmental sustainability and gives an overview of the corresponding mitigation measures referred under the umbrella of eco-design---a term defined as the maximisation of the ratio between the product functionality and the associated environmental impacts. In a first section, the lecture recalls the general notions of sustainability and environmental impact and links these general concepts to the design-specific concepts of product life cycle and functional unit. The second section introduces the rationale of eco-design and provides an overview of some eco-design strategies. The last section introduces some of the available tools for eco-design implementation in practice. 
 \end{abstract}
 
+\tableofcontents
+
 \section{Products and sustainability}
 \label{sec:sustainability}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 According to the most widely accepted definition, \emph{sustainable development} or \emph{sustainability}* ``is development that meets the needs of the present without compromising the ability of future generations to meet their own needs'' \cite{brundtland1987our}. The ``ability of future generation to meet their own needs'' is generally understood as depending from the preservation of three types of capital: the environmental\footnote{in other words: the `nature', the `natural resources', including living biological stock, usable mineral resources, breathable air and drinkable water, beautiful landscapes, etc.}, social\footnote{in other words: human well-being, happiness, and its constituents being eventually, health, education, equality of chances, freedom, etc.}, and economical capitals\footnote{in other words: money and other forms of marketable assets.}. 
 
@@ -48,6 +52,7 @@ Consequently, in the context of this lecture, we consider that caring for sustai
 
 \subsection{Environmental impacts}
 \label{sec:EnvironmentalImpacts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Let's approach the concept of environmental impact with a simple analogy: suppose you want---whatever the reason---to dig a hole in your well-grassed garden {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. By doing it, you reduce the available surface to dig another hole in your garden, that is, you consume a specific resource which is the ``area of nicely grassed ground". This resource becomes more scarce than it was before. Digging a hole also inevitably creates a heap somewhere else, further reducing the resource ``area of nicely grassed ground" of an additional amount (the surface of the heap base). 
 
@@ -81,8 +86,7 @@ Unfortunately, there is no global reference of resources that need to be preserv
 
 There is no global reference of pollutions that need to be mitigated as well. One reason is that some of them are localized, such as smog and light pollution only affecting urban areas. Whether pollution is considered as detrimental also depends on the perceived criticality of the resources involved in the affected ecosystem---and we have seen that there is no global consensus on that. Nevertheless, there are examples of measures to mitigate specific pollutions at global level, such as the \href{https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change}{United Nations Framework Convention on Climate Change}, or the \href{https://en.wikipedia.org/wiki/Montreal_Protocol}{Montreal Protocol on Substances that Deplete the Ozone Layer}. A larger number and variety of agreements can be found at regional level, like the legally binding \href{https://en.wikipedia.org/wiki/European_emission_standards}{European emission standards for new vehicles} or more local levels. 
 
-This lack of consensus makes it difficult to find reference indicators to measure environmental impacts. This results in a lack of clarity for practitioners which are neither environmental experts nor necessarily want to take position on the relative importance of environmental impacts on behalf of their customers. In order to solve this problem, different approaches have been developed to define indicator sets and aggregated indicators of environmental impacts, such as \href{https://www.pre-sustainability.com/download/EI99_Manual.pdf}{EI99} \cite{consultants2000eco}, ILCD 2011 or \href{https://www.leidenuniv.nl/cml/ssp/publications/recipe_characterisation.pdf}{ReCiPe 2008} \cite{goedkoop2009recipe} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. These indicators are very useful to mask the complexity of environmental impacts behind a single or a few figures in order to focus on decision making. Nonetheless, they cannot account for the whole complexity of ecosystemic mechanisms and still embed value judgments.
-
+In spite of this lack of consensus, different approaches have been developed to define indicator sets or aggregated indicators of environmental impacts, such as \href{https://www.pre-sustainability.com/download/EI99_Manual.pdf}{EI99} \cite{consultants2000eco}, ILCD 2011 or \href{https://www.leidenuniv.nl/cml/ssp/publications/recipe_characterisation.pdf}{ReCiPe 2008} \cite{goedkoop2009recipe} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. These indicators allow masking the complexity of environmental impacts behind a single or a few summarizing figures. They are useful for practitioners wanting to take environmental impact into account in decision making without being environmental experts or needing to take position on the relative importance of environmental impacts on behalf of their customers. Nonetheless, these indicators cannot account for the whole complexity of eco-systemic mechanisms and remain are based on simplified models and ethical assumptions. Practitioners still need to make a choice between these indicators and apply them, which still requires some expertise.
 
 \subsubsection{About irreversibility, or why less is better}
 \label{sec:irreversibility}
@@ -113,13 +117,15 @@ Understanding environmental impact as entropy amounts to say that every activity
 \setlength{\parskip}{0em}
 
 
-\subsection{The environmental impacts of products}
+\subsection{Eco-efficiency of products}
 \label{sec:tbd}
-The mere existence of products does not create environmental impacts. When my TV is off, it does not do anything harmful for anybody, it is just an inert object. Rather, products are middle things between social needs (watching TV) and large and complex networks of activities caused by the realisation of these needs: the TV needed to be fabricated so I can have it, because I have it I can plug in to the mains and turn it on, because it will inevitably become a waste product it will need to be processed or will come back to the environment and may leak harmful substances. As we said it earlier: each activity has environmental impacts. The environmental impacts associated with products sums up to those of all activities which contributed to the delivery of its specific functionality. The set of all these activities is called the \emph{product life cycle}*. The specific functionality is called the \emph{functional unit}* 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Talking about products, where are the environmental impacts coming from? When my TV is off, it does not do anything harmful for anybody, it is just an inert object. That is, the mere existence of products does not create environmental impacts. Rather, products are middle things between social needs (watching TV) and large and complex networks of activities caused by the realisation of these needs: the TV needed to be fabricated so I can have it, because I have it I can plug in to the mains and turn it on, because it will inevitably become a waste product it will need to be processed or will come back to the environment and may leak harmful substances. As we said earlier: each activity has environmental impacts. The environmental impacts associated with products sums up to those of all activities which contributed to the delivery of its specific functionality. The set of all these activities is called the \emph{product life cycle}*. The specific functionality is called the \emph{functional unit}*. The ratio between the sum of all impacts created within the product life cycle and its functional unit is called the \emph{eco-efficiency}*. Improving the sustainability of a product amounts to improve its eco-efficiency, which requires analyzing both the product life cycle and the functional unit.
 
 \subsubsection{Product life cycle}
 \label{sec:plc}
-The concept of product life cycle is generally represented as a circle of chronological stages {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}\footnote{attention}. Typical stages are:
+The concept of product life cycle is generally represented as a circle of chronological stages {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}\footnote{not to be mistaken with the \href{https://en.wikipedia.org/wiki/Product_life-cycle_management_(marketing)}{product life cycle used in innovation management}}. Typical stages are:
 \begin{itemize}
 	\item Raw materials extraction: resources are taken from their natural state, eventually refined and transformed into semi-manufactured products (e.g. bauxite is excavated, processed to produce alumina, smelted to product raw metal aluminium blocks)
 	\item Manufacturing: semi-finished products are turned into functional components with the help of diverse processes (milling, casting, etc.), which are in turn assembled into finished products and packaged for distribution
@@ -132,25 +138,50 @@ This representation is simplistic in the sense it suggests that a product life c
 
 \subsubsection{Functional unit}
 \label{sec:fu}
-Now that we have a way to measure the environmental impacts of products The functional unit is a measure of the amount of functionality delivered by a product
-value lifetime  technical lifetime
+The functional unit is a measure of the amount of functionality delivered by a product. This amount is defined in both qualitative and quantitative terms: \emph{what} is delivered by the product and \emph{how much} of it it can deliver. For example, the functional unit of a pen is not only given by its specific function---which is to draw a visible line on a predefined range of materials---but also by the total length it can draw (e.g. 2km) {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. 
 
+The quantitative part of the functional unit is important because it delivers the only reference allowing to compare the eco-efficiency of products objectively. If two pens deliver the same functional quality (same line characteristics such as darkness and regularity), have the same environmental impacts, but one of them can draw half the length of the other, then it is clear which of them is the most eco-efficient. It is more difficult---and often does not make any sense---to compare the environmental impacts of two products having diverging functions. What if two pens deliver lines of different thicknesses? What creates the most usage value: a car or a cell phone?
+
+The extent to which the potential quantity of functionality a product can deliver is actually realised depends on usage patterns. This encompasses on the one side the appropriateness of the usage but also on the willingness of the user to \emph{exhaust} the potential of a product. A typical example of this phenomenon is the cell phone: there is a high probability that you have one of them sleeping in one of your drawers at home \cite{hanson2014s}. These products can still deliver their functionality, but they have become obsolete, either for structural reasons (switch from 3G to 4G) or as a result of changing fashion (new iPhone coming out), among other possible reasons. Therefore, it is not only interesting to have a look at the potential quantity of functionality delivered by a product, but also at the extent to which users turn this potential into reality. 
+
+\subsubsection{The role of design in product eco-efficiency}
+\label{sec:productdesign}
+There is a word of saying that 80\% of the costs of a product are engaged by its design, the rest being the influenced by the later intervention of other stakeholders of the product life cycle, like the manufacturer and the user {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Another common place is that the cost of changes increase with time along the product development process. The same applies to the environmental impacts. This is due to the fact that the essence of design is to make \emph{prescriptive} decisions. When you decide a product, you decide how the product should be manufactured (because you define materials, shapes, and assembly principles) and used. You therefore decide upon the cost and the environmental impacts of manufacturing and use. Stakeholders of the product life cycle still have a certain degree of freedom, yet constrained by your decisions. Similarly, decisions taken at the early design stages constraints the degrees of freedom at later stages. Hence, the best time to think about eco-efficiency is in the early design stages. 
+
+% end of paragraph - time for take aways and exercise
+\setlength{\parskip}{1em}
+{\emph{Take-aways of this subsection:
+\setlength{\parskip}{0em}
+\begin{itemize}
+  \item The sustainability of a product is given by its \emph{eco-efficiency}*
+  \item Eco-efficiency is the ratio between two quantities: impact and function
+  \item The quantity of impacts is given by the sum of all \emph{elementary flows}* involved in the \emph{product life cycle}*
+  \item The quantity of function is given by the \emph{functional unit}*
+  \item You can only compare the eco-efficiency of products having the same function
+  \item The earlier you think about sustainability in the product development process, the better.
+\end{itemize}
+}}
+
+\setlength{\parskip}{1em}
+{\color{PineGreen}\emph{Exercise \stepcounter{exercise}\arabic{exercise}. Try to define in which terms the eco-efficiency of a car could be defined. How does the product life cycle looks like? What are the major elementary flows? What is the functional unit of a car? Where could be impacts avoided or functionality gained?}}
+\setlength{\parskip}{0em}
+
+
+\section{Eco-design}
+\label{sec:ecodesign}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+There is no magical formula to increase the eco-efficiency of products; no systematic method leading invariably to positive results. The essence of design is to develop solutions for open, complex and ill-defined problems. And for those problems, there is generally no systematic method designers can be provided with in order to derive optimal solutions. 
+
+Nonetheless, 
 
 \begin{comment}
-\subsubsection{Measure environmental sustainability}
-\label{sec:localvsglobal}
-As a consequence, it is not possible to say \emph{whether} an activity is sustainable or not in absolute terms. There is no such a thing as a threshold objectively marking the limit between a sustainable and an unsustainable activity. The best thing we can do is to state sustainability in relative, comparative terms. (because if you set thresholds, you are prescribing a allocation mechanism, which is a utterly political thing). The EU made it for Co2 emissions of cars, setting an absolute threshold. 
 
 
-
-\subsubsection{the role of product design}
-\label{sec:productdesign}
-
-20\%-80\%-rule
-0
 \section{ecodesign rationale}
 \label{sec:ecodesignRationale}
- - ratonal approach
+ - rational approach (know why, identify what to improve, search for solutions, check results)
  - 4 levels of Brezet
  - radical change vs. end-of-pipe 
 
