@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  26 JUN 2018 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  27 JUN 2018 18:57
 entering extended mode
 **./Script8.tex
 (Script8.tex
@@ -600,26 +600,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 [2] [3] [4] [5] [6]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
- [7] [8] [9] Excluding 'comment' comment. (Script8.bbl
-[10])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+ [7] [8] [9]
+Overfull \hbox (4.61165pt too wide) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/10 Nonetheless, like any other de-sign pa-ram-e-ter, eco-efficie
+ncy can be ap-proached
+ []
+
+[10]
+Overfull \hbox (4.33282pt too wide) in paragraph at lines 197--198
+\OT1/cmr/m/n/10 ``ErP'' (Energy-related Prod-ucts), also known as the []``Eu-ro
+-pean ecode-
+ []
+
+[11] [12] [13] [14] Excluding 'comment' comment. (Script8.bbl [15] [16])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 304.
+
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 304.
  (Script8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 304.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 304.
 Package rerunfilecheck Info: File `Script8.out' has not changed.
-(rerunfilecheck)             Checksum: F402C6B1804DBF40E3FA37F1EF24C2CD;885.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+(rerunfilecheck)             Checksum: 9D28AFB7B5343E1B31395CA16C024A12;1584.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 304.
  ) 
 Here is how much of TeX's memory you used:
- 5740 strings out of 493305
- 84419 string characters out of 3129367
- 171502 words of memory out of 3000000
- 9215 multiletter control sequences out of 15000+200000
+ 5775 strings out of 493305
+ 84895 string characters out of 3129367
+ 174037 words of memory out of 3000000
+ 9232 multiletter control sequences out of 15000+200000
  8848 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,35p,2016b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,8n,35p,2016b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.
@@ -635,9 +647,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/jb2971/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jb29
 71/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on Script8.pdf (11 pages, 215138 bytes).
+Output written on Script8.pdf (17 pages, 249756 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

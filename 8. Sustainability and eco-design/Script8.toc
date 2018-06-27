@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}Products and sustainability}{1}{section.1}
+\contentsline {section}{\numberline {1}Products and sustainability}{2}{section.1}
 \contentsline {subsection}{\numberline {1.1}Environmental impacts}{3}{subsection.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1}Resource consumption, depletion and restoration}{3}{subsubsection.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.2}Pollution}{4}{subsubsection.1.1.2}
@@ -6,6 +6,14 @@
 \contentsline {subsubsection}{\numberline {1.1.4}About irreversibility, or why less is better}{6}{subsubsection.1.1.4}
 \contentsline {subsection}{\numberline {1.2}Eco-efficiency of products}{7}{subsection.1.2}
 \contentsline {subsubsection}{\numberline {1.2.1}Product life cycle}{8}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Functional unit}{8}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2}Functional unit}{9}{subsubsection.1.2.2}
 \contentsline {subsubsection}{\numberline {1.2.3}The role of design in product eco-efficiency}{9}{subsubsection.1.2.3}
 \contentsline {section}{\numberline {2}Eco-design}{10}{section.2}
+\contentsline {subsection}{\numberline {2.1}Setting up objectives}{10}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Motivations for eco-design}{11}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Where to search for help to define eco-design objectives?}{12}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Assessing the initial situation}{13}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Life Cycle Assessment (LCA)}{14}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}MECO matrix}{15}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Looking for solutions: eco-design guidelines}{16}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Checking progress: iterating LCA}{16}{subsection.2.4}
