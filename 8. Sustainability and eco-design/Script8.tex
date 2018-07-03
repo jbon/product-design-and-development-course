@@ -6,6 +6,7 @@
 \usepackage{color}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{comment}
+\usepackage{textcomp}
 
 \newcounter{slide}
 \newcounter{exercise}
@@ -21,13 +22,14 @@
 
 \title{Sustainability and eco-design}
 %\subtitle{Course Product Design and Development. Lecture 8.}
-\author{Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
+
+\author{Product Design and Development (ME30294). Lecture 8. \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
 \date{Last update: July 2018}
 
 \maketitle
 
 \begin{abstract}
-This lecture discusses the implications of PDD in terms of environmental sustainability and gives an overview of the corresponding mitigation measures referred under the umbrella of eco-design---a term defined as the maximisation of the ratio between the product functionality and the associated environmental impacts. In a first section, the lecture recalls the general notions of sustainability and environmental impact and links these general concepts to the design-specific concepts of product life cycle and functional unit. The second section introduces the rationale of eco-design and provides an overview of some eco-design strategies. The last section introduces some of the available tools for eco-design implementation in practice. 
+This lecture discusses the implications of PDD in terms of environmental sustainability and gives an overview of the corresponding mitigation measures referred under the umbrella of eco-design---a term defined as the maximisation of the ratio between the product functionality and the associated environmental impacts. In a first section, the lecture recalls the general notions of sustainability and environmental impact and links these general concepts to the design-specific concepts of product life cycle and functional unit. The second section introduces the rationale of eco-design and provides an overview of eco-design strategies. 
 \end{abstract}
 
 \tableofcontents
@@ -36,7 +38,7 @@ This lecture discusses the implications of PDD in terms of environmental sustain
 \label{sec:prologue}
 A distinctive characteristic of the typical middle-class family---a model the largest part of the fast growing word population longs for---is an overabundance of possessions, stuff and gadgetry \cite{menzelMaterialWorldGlobal1995}. And a rising overabundance of it: the number of energy using products typically found in a household have more than doubled between 1970 and 2000 \cite{owenRiseMachinesReview2006} and may have continue to rise in the meantime {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. For certain populations (e.g. US and western countries), this evolution even comes to a point where stuff and unused clutter becomes an overwhelming psychological burden for most middle-class families \cite{arnoldChangingAmericanHome2007}. A point where consumption becomes counter-productive.
 
-The global overconsumption of stuff already `overshoots' of the Earth's limited capacity to deliver enough resources and even to deliver a stable living environment \cite{rockstromPlanetaryBoundariesExploring2009} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Neither can the Earth offer enough resources to give everyone access to the current middle-class family model, nor can It do it for the next generations issuing from the people who already access this model. In the ethical debate about resource distribution, the term `sustainability' speaks for the search of a life-style which can be adopted across humanity and perpetuated to next generations. And there is hope sustainability can be reached, because a lot of things we do is just inefficient {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}{\color{red}\textsuperscript{[reference needed]}}. %shell car vs usual car.
+The global over-consumption of stuff already `overshoots' of the Earth's limited capacity to deliver enough resources and even to deliver a stable living environment \cite{rockstromPlanetaryBoundariesExploring2009} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Neither can the Earth offer enough resources to give everyone access to the current middle-class family model, nor can It do it for the next generations issuing from the people who already access this model \footnote{To hear an interesting opinion about the role of consumption in over-exploitation of Earth's resources, see the excellent video \href{https://www.youtube.com/watch?v=9GorqroigqM&vl=fr}{``The Story of Stuff''}. \textsuperscript{\color{Magenta}[key reading]}}. In the ethical debate about resource distribution, the term `sustainability' speaks for the search of a life-style which can be adopted across humanity and perpetuated to next generations. And there is hope sustainability can be reached, because a lot of things we do is just inefficient {\color{blue}[Slides \stepcounter{slide}\arabic{slide}-\stepcounter{slide}\arabic{slide}]}.
 
 This lecture it is meant to provide you---as a designer---with an overview of the role and potential of design in contributing to sustainability. 
 
@@ -106,7 +108,8 @@ Another interpretation of the second law of thermodynamics is that creating orde
 
 Understanding environmental impact as entropy amounts to say that every activity has an environmental impact, which is irreversible. Trying to restore some resources (to ``recycle'' them) would only make the whole set of resources worse. Consequently, the best way to avoid environmental impact is to reduce activity. Less is better. In other words, the more social value is created out of the minimum activity, the better. Sustainability is about reducing waste, understood in the sense of the consumption of a resource which is not bound to human satisfaction.
 
-% end of paragraph - time for take aways and exercise
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
 \setlength{\parskip}{1em}
 {\emph{Take-aways of this subsection:
 \setlength{\parskip}{0em}
@@ -121,9 +124,9 @@ Understanding environmental impact as entropy amounts to say that every activity
 }}
 
 \setlength{\parskip}{1em}
-{\color{PineGreen}\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 4 people, discuss which environmental impacts you consider as important, how your views may fit with your future job sheet and the local conditions you are living in. Try to mix nationalities by constituting the groups, this will increase the chances to have conflicting opinions and enhance discussion.}}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 4 people, discuss which environmental impacts you consider as important, how your views may fit with your future job sheet and the local conditions you are living in. Try to mix nationalities by constituting the groups, this will increase the chances to have conflicting opinions and enhance discussion.}
 \setlength{\parskip}{0em}
-
+}
 
 \subsection{Eco-efficiency of products}
 \label{sec:tbd}
@@ -154,9 +157,10 @@ The extent to which the potential quantity of functionality a product can delive
 
 \subsubsection{The role of design in product eco-efficiency}
 \label{sec:productdesign}
-There is a word of saying that 80\% of the costs of a product are engaged by its design, the rest being the influenced by the later intervention of other stakeholders of the product life cycle, like the manufacturer and the user {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Another common place is that the cost of changes increase with time along the product development process. The same applies to the environmental impacts. This is due to the fact that the essence of design is to make \emph{prescriptive} decisions. When you decide a product, you decide how the product should be manufactured (because you define materials, shapes, and assembly principles) and used. You therefore decide upon the cost and the environmental impacts of manufacturing and use. Stakeholders of the product life cycle still have a certain degree of freedom, yet constrained by your decisions. Similarly, decisions taken at the early design stages constraints the degrees of freedom at later stages. Hence, the best time to think about eco-efficiency is in the early design stages. 
+There is a word of saying that 80\% of the costs of a product are engaged by its design, the rest being the influenced by the later intervention of other stakeholders of the product life cycle, like the manufacturer and the user \cite{mcaloone2009environmental}\textsuperscript{\color{Magenta}[key reading]} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Another common place is that the cost of changes increase with time along the product development process \cite{luttroppEcoDesignTenGolden2006a}\textsuperscript{\color{Magenta}[key reading]}. The same applies to the environmental impacts. This is due to the fact that the essence of design is to make \emph{prescriptive} decisions. When you decide a product, you decide how the product should be manufactured (because you define materials, shapes, and assembly principles) and used. You therefore decide upon the cost and the environmental impacts of manufacturing and use. Stakeholders of the product life cycle still have a certain degree of freedom, yet constrained by your decisions. Similarly, decisions taken at the early design stages constraints the degrees of freedom at later stages. Hence, the best time to think about eco-efficiency is in the early design stages. 
 
-% end of paragraph - time for take aways and exercise
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
 \setlength{\parskip}{1em}
 {\emph{Take-aways of this subsection:
 \setlength{\parskip}{0em}
@@ -171,9 +175,9 @@ There is a word of saying that 80\% of the costs of a product are engaged by its
 }}
 
 \setlength{\parskip}{1em}
-{\color{PineGreen}\emph{Exercise \stepcounter{exercise}\arabic{exercise}. Try to define in which terms the eco-efficiency of a car could be defined. How does the product life cycle looks like? What are the major elementary flows? What is the functional unit of a car? Where could be impacts avoided or functionality gained?}}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. Try to define in which terms the eco-efficiency of a car could be defined. How does the product life cycle looks like? What are the major elementary flows? What is the functional unit of a car? Where could be impacts avoided or functionality gained?}
 \setlength{\parskip}{0em}
-
+}
 
 \section{Eco-design}
 \label{sec:ecodesign}
@@ -182,12 +186,11 @@ There is a word of saying that 80\% of the costs of a product are engaged by its
 
 There is no magical formula to increase the eco-efficiency of products; no systematic method leading invariably to positive results. The essence of design is to develop solutions for open, complex and ill-defined problems. And for those problems, there is generally no systematic method designers can be provided with in order to derive optimal solutions. 
 
-Nonetheless, like any other design parameter, eco-efficiency can be approached through a simple rational process in four steps:
+Nonetheless, like any other design parameter, eco-efficiency can be approached through a simple rational process in three steps:
 \begin{itemize}
 	\item Setting up objectives: what do I want to do and what are my motivations for that?
 	\item Assessing the initial situation: how far am I from my objectives?
 	\item Looking for solutions: what can I do to reach my objectives?
-	\item Checking progress: did the action improved the initial situation?
 \end{itemize}
 
 \subsection{Setting up objectives}
@@ -226,7 +229,8 @@ The three first types of standards are multi-criteria and cover all relevant imp
 
 There are a lot of ecolabels {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} and there may be different online databases referencing them, like \href{http://www.ecolabelindex.com/ecolabels/?st=country,gb}{this one}. Browsing the criteria of the labels applying to a product category of interest is a good starting point for an eco-design initiative. In case the product isn't covered by any label, it is still possible to perform an environmental assessment, which is the topic of the next section. 
 
-% end of paragraph - time for take aways and exercise
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
 \setlength{\parskip}{1em}
 {\emph{Take-aways of this subsection:
 \setlength{\parskip}{0em}
@@ -237,9 +241,9 @@ There are a lot of ecolabels {\color{blue}[\stepcounter{slide}Slide \arabic{slid
 }}
 
 \setlength{\parskip}{1em}
-{\color{PineGreen}\emph{Exercise \stepcounter{exercise}\arabic{exercise}. Make an internet research to find out which environmental standards would apply for to a fridge. Can you think of any way to outperform these standards?}}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. Make an internet research to find out which environmental standards would apply for to a fridge. Can you think of any way to outperform these standards?}
 \setlength{\parskip}{0em}
-
+}
 
 \subsection{Assessing the initial situation}
 \label{sec:envAss}
@@ -266,7 +270,8 @@ LCA remains a time-consuming tool reserved for experts and does not fit with the
 
 Because it is qualitative, this method is particularly adapted for early design stages where no quantitative information is available on the product. Because it only requires a single sheet of paper, it is particularly adapted for group discussions and quick decision making. However, as it is a qualitative approach it is more subjective and less systematic than LCA, so it may lead to some important issues being overlook.
 
-% end of paragraph - time for take aways and exercise
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
 \setlength{\parskip}{1em}
 {\emph{Take-aways of this subsection:
 \setlength{\parskip}{0em}
@@ -278,20 +283,20 @@ Because it is qualitative, this method is particularly adapted for early design 
 }}
 
 \setlength{\parskip}{1em}
-{\color{PineGreen}\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 4, on a white board or a sufficiently large sheet of paper, draw the MECO matrix and try to fill it out for the product 'smart phone'}}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 4, on a white board or a sufficiently large sheet of paper, draw the MECO matrix and try to fill it out for the product 'smart phone'}
 \setlength{\parskip}{0em}
-
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Looking for solutions}
 \label{sec:solutions}
-Once the environmental hotspots of the product are known, it is time to look for alternative designs potentially offering an increased functionality/impact ratio. For this, you can either rely on \emph{eco-design guidelines}* or on \emph{eco-ideation mechanisms}*. The earlier are already existing design principles you can apply to your product. The latter are creativity triggers to find your own original solutions. 
+Once the environmental hotspots of the product are known, it is time to look for alternative designs potentially offering an increased functionality/impact ratio. For this, you can either rely on \emph{design for the environment (DfE) guidelines}* an on \emph{eco-ideation mechanisms}*. DfE guidelines provide good ideas to alter an already existing design. They support incremental product improvement. Eco-ideation mechanisms are creativity triggers to find your own original solutions. They support radical product innovation. 
 
-\subsubsection{Eco-design guidelines}
+\subsubsection{DfE guidelines}
 \label{sec:guidelines}
-In the absence of magic formula to design sustainable products, guidance can be given to designers in the form of guidelines, i.e. strategies, or ``rules of thumb'', which have proven to lead towards satisfactory solutions but which are not guaranteed to be optimal. Academia has produced large sets of these rules of thumb by analyzing existing designs. We can mention ``10 golden rules'' of eco-design by Luttropp and Lagerstedt \cite{luttroppEcoDesignTenGolden2006a}, providing 10 rough and general purpose strategies an eco-design approach can engage in. At a more concrete level, we can mention the extensive eco-design guidelines compilation of Telenko et al. \cite{telenkoCompilationDesignEnvironment2016a}. The latter are categorized by environmental aspect in the product life cycle, and are therefore useful to target a specific hotspot {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. {\color{red}\textless talk about ECODESIGN PILOT\textgreater}
+In the absence of magic formula to design sustainable products, guidance can be given to designers in the form of guidelines, i.e. strategies, or ``rules of thumb'', which have proven to lead towards satisfactory solutions but which are not guaranteed to be optimal. Academia has produced large numbers of these rules of thumb by analyzing existing designs. We can mention ``10 golden rules'' of eco-design by Luttropp and Lagerstedt \cite{luttroppEcoDesignTenGolden2006a}\textsuperscript{\color{Magenta}[key reading]}. More detailed and comprehensive guidelines are given by Telenko et al. \cite{telenkoCompilationDesignEnvironment2016a}\textsuperscript{\color{Magenta}[key reading]}, whose 76 guidelines are classified in subsets specifically targeting environmental aspects in the product life cycle {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Another source of DfE guidelines is the online tool \href{http://pilot.ecodesign.at/pilot/ONLINE/ENGLISH/INDEX.HTM}{ECODESIGN PILOT}. It provides an interactive environment to navigate among eco-design guidelines and find the most appropriate ones for a given hotspot. 
 
-In the following paragraph, we introduce some examples of strategies to address specific hotspots.
+In the following paragraph, we introduce some examples of DfE guidelines targeting at the product end-of-life (design for multiple life cycles) and use phase (design for energy efficiency).
 
 \paragraph{Design for multiple life cycles.}
 \label{sec:DfR}
@@ -301,15 +306,16 @@ This approach is particularly relevant for products whose major environmental im
 	\item Remanufacturing. Disposed products of a same model are collected and dismantled to separate parts. Parts are tested and sorted. Those which are still fully functional are reintroduced in the production process. The others undergo an alternative end-of-life route.
 	\item Recycling. Mixed disposed products are collected and dismantled or shredded to separate materials. Materials are sorted and introduced in a recycling process. In most cases, recycling amounts to `downcycling' in the sense that the recycled material has not exactly the same properties than the original material (e.g. polymers in plastics get shorter).
 \end{enumerate}
-These recovery methods are sorted in the order of increasing additional impact/entropy and decreasing preservation of the value added {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Recycling amounts to destructing the geometrical shape of a product and turning it to another half-finished product (e.g. plastic pellets). Both the destruction of the value added by forming processes and the application of a new forming process create impacts. Recycling only makes sense when these additional impacts are lower than those of forming products out of virgin material. Remanufacturing intends to use parts \emph{as is}, that is, to keep the value added in the part geometry. Therefore, it potentially leads to lower impacts and should be preferred to recycling. Reuse potentially leads to even lower processing and should be preferred to remanufacturing. 
+These recovery methods are presented in the order of increasing additional impact/entropy and decreasing preservation of the value added {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Recycling amounts to destructing the geometrical shape of a product and turning it to another half-finished product (e.g. plastic pellets). Both the destruction of the value added by forming processes and the application of a new forming process create impacts. Recycling only makes sense when these additional impacts are lower than those of forming products out of virgin material. Remanufacturing intends to use parts \emph{as is}, that is, to keep the value added in the part geometry. Therefore, it potentially leads to lower impacts and should be preferred to recycling. Reuse potentially leads to even lower processing and should be preferred to remanufacturing. 
 
-Here are some examples of design for remanufacturing guidelines {\color{red}\textsuperscript{[more info link]}}:
+Here are some examples of design for remanufacturing guidelines:
+\emph{
 \begin{itemize}
 	\item Modularize the product to group parts depending on their own life cycle. 
 	\begin{itemize}
 		\item Group parts per amount of value added. That is, group low value parts together and high value parts together. This will reduce the number of required processes to dismantle high value parts. 
 		\item Localize wear functions on easily detachable parts {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. This will reduce the volume of material which will need replacement in the remanufacturing process.
-		\item {\colour{red}make the most valuable parts appear first in the disassembly sequence (exemple Shimano )}
+		\item Make the most valuable parts or fragile parts appear first in the disassembly sequence to reduce the required disassembly time {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
 	\end{itemize}
 	\item Make the disassembly process easier, that is, reduce the level of intervention required to extract the parts to be reintroduced in the production process.
 	\begin{itemize}
@@ -318,8 +324,10 @@ Here are some examples of design for remanufacturing guidelines {\color{red}\tex
 		\item Reduce the variety of directions of the joining techniques. Making the entry point for disassembly on one unique side of the product avoids the need to turn the product in the disassembly process and reduces the disassembly time
 	\end{itemize}
 \end{itemize}
+}
 
-Here are some examples of design for recycling guidelines {\color{red}\textsuperscript{[more info link]}}:
+Here are some examples of design for recycling guidelines:
+\emph{
 \begin{itemize}
 	\item Choose materials which can be recycled. There is not necessarily a recycling process available for each material. Composite materials for example are difficult to recycle because there is no inexpensive way of either separating the constituents of the composites or reshaping composites for another usage. 
 	\begin{itemize}
@@ -329,40 +337,52 @@ Here are some examples of design for recycling guidelines {\color{red}\textsuper
 	\item Make materials separable if they are not compatible. Recycling requires separating materials which cannot be recycled together. Separation includes detachment and sorting. 
 	\begin{itemize}
 		\item Choose materials which can be sorted by conventional separating processes (e.g. float-sink {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} or air separation for plastics, magnetic or induction separation for metals, among other techniques)
-	  \item Avoid irreversible joining processes wuch as over-moulding. Even in shredding, overmoulding does not allow for separation of materials, whatever their size {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
+	  \item Avoid irreversible joining processes such as over-moulding. Even in shredding, over-moulding does not allow for separation of materials, whatever their size {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
 	\end{itemize}
 	\item Avoid the use of incompatible materials, that is, materials that disturbs the recycling process of another material {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
 \end{itemize}
+}
 
+More design for remanufacturing and design for recycling guidelines can be found here : \cite{goMultipleGenerationLifecycles2015a}
 
 \paragraph{Design for energy efficiency.}
 \label{sec:DfEE}
-Design for energy efficiency is relevant for...
-The energy efficiency of industrial products depends on three factors: the theoretical minimum required to deliver the function, the intrinsic losses of the product and the user-induced losses \cite{eliasUserefficientDesignReducing2011} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
+Design for energy efficiency is relevant for products whose major environmental impacts are generated through energy consumption in the use phase. The energy efficiency of industrial products depends on three factors: the theoretical minimum required to deliver the function, the intrinsic losses of the product and the user-induced losses \cite{eliasUserefficientDesignReducing2011} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. While the physical minimum energy to perform a given work cannot be changed, the volume of work maybe something that can be worked on. Let's take the example of using a kettle to make tea {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Most kettles are designed to shut off once water boils. However, most teas require the water to be between 70 and 85 \textdegree C. Reducing the target temperature reduces the amount of work to be delivered by the kettle and increases the energy efficiency. User-induced losses can be addressed as well in this example: how often do you boil exactly as much water as you need? Often, users would tend to boil too much water to be sure they have enough. Giving the user the possibility to measure the exact amount of water they need can avoid energy losses.
 
+Here are some examples of design for energy efficiency guidelines:
+\emph{
+\begin{itemize}
+  \item In cases the amount of functionality wished by the user is variable, provide automatic or manual tuning capabilities so the product does not provide more than expected.
+	\item Provide user with feedback on the current state of the process and eventually on how much resource is being consumed. This will allow them to adapt their demand. 
+	\item Provide discrete quantities of resources to avoid over-use. 
+	\item Schedule an automatic power down.
+\end{itemize}
+}
+
+More design for energy efficiency can be found here : \cite{telenkoCompilationDesignEnvironment2016a, bonvoisin2010design}.
+
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
+\setlength{\parskip}{1em}
+{\emph{Take-aways of this subsection:
+\setlength{\parskip}{0em}
+\begin{itemize}
+	\item To improve the eco-efficiency of a product, you can rely on existing \emph{DfE guidelines}*.
+	\item DfE guidelines provide ideas/examples/principles which can be adapted to your own product.
+	\item DfE guidelines can be used for addressing specific hotspots such as energy consumption in use or recyclability. 
+\end{itemize}
+}}
+
+\setlength{\parskip}{1em}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 2, draw the MECO matrix of a disposable razor. In ECODESIGN PILOT look for the relevant DfE guidelines. Apply some of these guidelines to re-design the product.}
+\setlength{\parskip}{0em}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{eco-innovation mechanisms}
 \label{sec:ecoAsit}
 {\color{red}\textless input Benjamin\textgreater}
 
-\subsection{Checking progress: iterating LCA}
-\label{sec:check}
-
-\begin{comment}
-
-\section{tools for implementation}
-\label{sec:tools}
-ecodesign pilot - communication - engineering tools
-
-
-\section{Take-aways}
-\label{sec:TakeAways}
-\begin{itemize}
-	\item product lifecycle
-	\item Folie 19 AIIT
-\end{itemize}
-
-\end{comment}
-
-\bibliographystyle{plain}
+\bibliographystyle{ieeetr}
 \bibliography{references}
 \end{document}

@@ -17,8 +17,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Life Cycle Assessment (LCA)}{15}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}MECO matrix}{16}{subsubsection.3.2.2}
 \contentsline {subsection}{\numberline {3.3}Looking for solutions}{16}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Eco-design guidelines}{17}{subsubsection.3.3.1}
-\contentsline {paragraph}{Design for multiple life cycles}{17}{section*.2}
-\contentsline {paragraph}{Design for energy efficiency}{19}{section*.3}
-\contentsline {subsubsection}{\numberline {3.3.2}eco-innovation mechanisms}{19}{subsubsection.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Checking progress: iterating LCA}{19}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.3.1}DfE guidelines}{16}{subsubsection.3.3.1}
+\contentsline {paragraph}{Design for multiple life cycles.}{17}{section*.2}
+\contentsline {paragraph}{Design for energy efficiency.}{19}{section*.3}
+\contentsline {subsubsection}{\numberline {3.3.2}eco-innovation mechanisms}{20}{subsubsection.3.3.2}
