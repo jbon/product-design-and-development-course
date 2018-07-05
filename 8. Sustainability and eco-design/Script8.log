@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  3 JUL 2018 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  5 JUL 2018 16:21
 entering extended mode
 **./Script8.tex
 (Script8.tex
@@ -744,13 +744,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
- [1
-
-{C:/Users/jb2971/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+)
 \tf@toc=\write5
 \openout5 = `Script8.toc'.
 
- [2] [3] [4] [5] [6] [7] [8] [9] [10]
+ [1
+
+{C:/Users/jb2971/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4
+] [5] [6] [7] [8] [9] [10]
 Overfull \hbox (4.61165pt too wide) in paragraph at lines 189--190
 []\OT1/cmr/m/n/10 Nonetheless, like any other de-sign pa-ram-e-ter, eco-efficie
 ncy can be ap-proached
@@ -781,17 +782,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 388.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 388.
 Package rerunfilecheck Info: File `Script8.out' has not changed.
 (rerunfilecheck)             Checksum: D6EA195417D3E8CAC4894F325D3A6109;1703.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 388.
  ) 
 Here is how much of TeX's memory you used:
- 6311 strings out of 493305
- 93225 string characters out of 3129367
- 179452 words of memory out of 3000000
- 9731 multiletter control sequences out of 15000+200000
+ 6313 strings out of 493305
+ 93320 string characters out of 3129367
+ 178519 words of memory out of 3000000
+ 9732 multiletter control sequences out of 15000+200000
  9560 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,35p,2016b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -812,9 +809,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jb2971
 Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr9.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on Script8.pdf (22 pages, 284486 bytes).
+Output written on Script8.pdf (22 pages, 285526 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
