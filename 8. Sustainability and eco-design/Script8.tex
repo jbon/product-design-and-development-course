@@ -1,5 +1,9 @@
 \documentclass{article}
 
+% style elements
+% Slide numbers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+% Key readings \textsuperscript{\color{Magenta}[key reading]}
+
 \usepackage[utf8]{inputenc}
 \usepackage{titling}
 \usepackage{hyperref}
@@ -24,7 +28,7 @@
 %\subtitle{Course Product Design and Development. Lecture 8.}
 
 \author{Product Design and Development (ME30294). Lecture 8. \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
-\date{Last update: July 2018}
+\date{Last update: \today}
 
 \maketitle
 
@@ -106,7 +110,7 @@ Let's apply this to the garden analogy. Suppose now you don't need the hole anym
 
 Another interpretation of the second law of thermodynamics is that creating order somewhere is inescapably bond to creating more disorder somewhere else. The more organized you want the matter to get, the more disorder you have to create somewhere else. An illustration of this is provided by the semiconductor industry: the production of a 2g microchip, which embeds a fairly high organisation of matter requiring high material purity, requires more than 1.7kg of matter \cite{williamsKilogramMicrochipEnergy2002}. That is, only 1.1\% of all matter involved in the production process ends up in the final product, 98.9\% turns out to be waste. Creating a platinum ring requires refining approx. 100kg of ores \cite{erkmanVersEcologieIndustrielle2004}, building a car 70t \cite{janinDemarcheEcoconceptionEntreprise2000}, sending an SMS 600g \cite{federico2001mips}. Creating fancy things creates huge messes. 
 
-Understanding environmental impact as entropy amounts to say that every activity has an environmental impact, which is irreversible. Trying to restore some resources (to ``recycle'' them) would only make the whole set of resources worse. Consequently, the best way to avoid environmental impact is to reduce activity. Less is better. In other words, the more social value is created out of the minimum activity, the better. Sustainability is about reducing waste, understood in the sense of the consumption of a resource which is not bound to human satisfaction.
+Understanding environmental impact as entropy amounts to say that every activity has an environmental impact, which is irreversible \cite{jackson2013material}\textsuperscript{\color{Magenta}[key reading]}. Trying to restore some resources (to ``recycle'' them) would only make the whole set of resources worse. Consequently, the best way to avoid environmental impact is to reduce activity. Less is better. In other words, the more social value is created out of the minimum activity, the better. Sustainability is about reducing waste, understood in the sense of the consumption of a resource which is not bound to human satisfaction.
 
 % end of subsection - time for take aways and exercise
 {\color{PineGreen}
@@ -384,5 +388,5 @@ More design for energy efficiency can be found here : \cite{telenkoCompilationDe
 {\color{red}\textless input Benjamin\textgreater}
 
 \bibliographystyle{ieeetr}
-\bibliography{references}
+\bibliography{../References}
 \end{document}

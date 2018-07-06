@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}From incremental design to rethinking systems}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}4 Levels of innovation}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Example: smart city services}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}From corrective to preventive action}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Conclusion: ask why}{4}{subsection.1.4}
+\contentsline {section}{\numberline {2}From products to product service systems}{4}{section.2}

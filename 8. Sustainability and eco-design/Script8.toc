@@ -20,4 +20,4 @@
 \contentsline {subsubsection}{\numberline {3.3.1}DfE guidelines}{16}{subsubsection.3.3.1}
 \contentsline {paragraph}{Design for multiple life cycles.}{17}{section*.2}
 \contentsline {paragraph}{Design for energy efficiency.}{19}{section*.3}
-\contentsline {subsubsection}{\numberline {3.3.2}eco-innovation mechanisms}{20}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2}Eco-innovation mechanisms}{20}{subsubsection.3.3.2}

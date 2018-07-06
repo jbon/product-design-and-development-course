@@ -1,4 +1,132 @@
+\documentclass{article}
 
- - 4 levels of Brezet
+% style elements
+% Slide numbers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+% Key readings \textsuperscript{\color{Magenta}[key reading]}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment}
+\usepackage{textcomp}
+
+\newcounter{slide}
+\newcounter{exercise}
+
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+\begin{document}
+
+
+\title{System thinking}
+
+\author{Product Design and Development (ME30294). Lecture 9. \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
+\date{Last update: \today}
+
+\maketitle
+
+\begin{abstract}
+This lecture discusses ... \end{abstract}
+
+\tableofcontents
+
+\section{From incremental design to rethinking systems}
+\label{sec:FromIncrementalDesignToRethinkingSystems}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\color{red}Through the example of eco-design, we illustrate the innovation potential of going beyond product redesign and to challenge the systems in which they are embedded.}
+
+\subsection{4 Levels of innovation}
+\label{sec:fourlevels}
+
+The extent to which a new product design is `innovative'---that is, outperforms existing products---can be roughly classified within 4 layers  {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}\cite{bhamraEcodesignSearchNew2004}:
+\begin{itemize}
+	\item \emph{Product improvement.} The product architecture remains the same while a specific parameters is improved. For example, the application of a topological optimization on a mechanical part allows reducing its weight without compromising any other product parameters (e.g. mechanical load capacity).
+	\item \emph{Product redesign.} The product concept remains the same while the product architecture changes. Some parts are removed, inserted or replaced to implement a given functionality in an alternative way. For example, the combination of glued blister and cardboard in packaging can be replaced by stamped and folded cardboard: holes and folds provide the same packaging function (hold and show the product) than the blister. 
+	\item \emph{Function innovation.} The reason to be of the product remains the same but the product concept may change. For example, in a bathroom, the functions `flushing' and `washing' hands can be combined into a single product sharing a common water flow. These functions remain fulfilled by the combined product whereas they were originally fulfilled by two distinct products.
+	\item \emph{System innovation.} At this ultimate level, even the reason to be of the product is challenged. For example, car sharing offers are based on the assumption that what people need is not to have a car but to be transported. Transportation is provided by a combination of material and immaterial products and services (cars, booking apps, preventive maintenance).
+\end{itemize}
+This model has originally introduced for eco-efficiency \cite{brezet1997dynamics} but its message is basically valid for any product performance criteria (e.g. cost). The four layers are sorted in the order of increasing influence of the factors they challenge (namely: parameter, architecture, product concept, product's reason to be). Some factors are more influential than others because they appear earlier in the causal chain: the range of possible product parameters is set by the product architecture; the architecture implements a given functionality, which in turn only makes sense in a given system, which in turn is to be considered in the context of a supersystem etc. The earlier the factor in the causal chain is, the most influencing it is, the larger the room for performance improvement is given while challenging it. But also: the most influencing a factor is, the higher the number of processes are affected while challenging it, and the more resistance there is in changing it. 
+
+\subsection{Example: smart city services}
+\label{sec:smartcity}
+The increased potential of challenging higher level constructs is also exemplified by a case I was involved in: the redesign of a urban waste collection optimization service based on wireless sensor networks {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} \cite{bonvoisinAnalyseEnvironnementaleEcoconception2012}. The functionality of the service is to monitor the level of public waste containers so garbage collectors can avoid driving to containers which do not need emptying, hence shortening collection rounds and saving time and resources. Each public waste container is provided with a sensor measuring the waste level. This information is transmitted via wireless connection by a network of repeaters to a central server. Each day, the system defines the optimal route for the collection trucks who only need to collect the bins which are about to overflow. By using these system, waste collectors save up to 30\% fuel consumption and reduce their influence on urban noise and traffic congestion. This system already existed and the question was raised how to reduce its own environmental impacts. We tested three options {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}:
+\begin{enumerate}
+	\item The first option challenges the architecture of parts of the system (the sensors). The electronics of the sensors are embedded in a IP67 casing and flooded into a solid resin to avoid disturbance from dust or water. The resin makes the most weight of the product, creates a significant share of the products' environmental impacts and makes recycling impossible. An idea was to improve the IP67 casing so that using resin could be avoided.
+	\item The second option challenges the architecture of the system it self (the wireless sensor network). One of the major factors of energy consumption is due to the fact that the wireless modules may be too sensible and be awaken by conversations they are not supposed to be part of. An idea was that wireless module deliberately reduce their sensibility so they just hear the communications of their immediate neighbors. 
+	\item The third option challenge the function which is fulfilled by the system (which information is delivered). The sensors sense and send the status of each bin every hour and provide an overview of the bin pool in almost real time all day long. However, the information which is really required by the client once a day is ``which of the bins will overflow between now and tomorrow''. By making the sensors waking up and sensing the level of waste at only when really needed, it is possible to reduce communications in the network by 90\% without reducing prediction accuracy.
+\end{enumerate}
+The environmental impacts of the system implementing these options has been computed using LCA {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The results are: option 3 leads to higher impact reduction than option 2, the same being for option 2 and 1. Challenging the function is better than challenging the architecture of the system, and changing the architecture of the system leads to better results than changing the architecture of individual system components.
+
+\subsection{From corrective to preventive action}
+\label{sec:endofpipe}
+The potential of challenging factors lying earlier in the causal chain is illustrated by the historical evolution of environmental preservation in industry {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Early environmental regulations applying to industries in the 19th century concerned the emissions of harmful substances by factories. Increased social pressure required factories to \emph{capture} pollutions: e.g. using retention trays to avoid to spill out chemicals, filtering out harmful substances emitted by combustion processes. In the second half of the 20th century, the increased competitiveness of markets, instability of resource prices (e.g. oil crisis) and public awareness of environmental issues, created incentives for companies not only to capture pollutions but to \emph{reduce} them. This lead to the development of cleaner production methods (e.g. lean manufacturing) and technologies (e.g. High pressure jet assisted machining \cite{pusavecTransitioningSustainableProduction2010} minimum quantity lubrication in machining \cite{lawalCriticalAssessmentLubrication2013}). The more recent and comprehensive awareness about sustainability acknowledged the role of the product in limiting the potential of cleaner production methods and in creating impacts outside the factory walls. This role is tackled by eco-design as we saw in the last lecture. 
+
+In summary, environmental preservation in industry first looked at outgoing pipes, then considered the whole system within the factory walls and finally opened up to the whole product life cycle. It first captured pollutions, then questioned why processes inside the factory created pollution, to finally questioned why there is a need for those processes. It progressively traced back the causal chains to target always higher eco-efficiency. 
+
+\subsection{Conclusion: ask why}
+\label{sec:why}
+The main message of this section is that innovation and higher performance requires asking why {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Why does this parameter needs to fit in this range? What does the use needs this product? Asking why makes the scope of the discussion jump to another reflection level. It allows switching from a component to a system perspective. Addressing the system perspective allows reaching higher performance when addressing the component level becomes limited.
+
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
+\setlength{\parskip}{1em}
+{\emph{Take-aways of this subsection:
+\setlength{\parskip}{0em}
+\begin{itemize}
+	\item Challenge constraints, ask why.
+  \item The earlier in the causal chain a factor is challenged, the higher the innovation potential.
+	\item Challenging influencing factors requires switching from a product perspective to a system perspective.
+	\item Addressing the system perspective may require switching from product design to system design.
+\end{itemize}
+}}
+
+\setlength{\parskip}{1em}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 3, around a sufficiently large paper sheet, use the 5 why technique to identify the factors limiting the eco-efficiency of a car in today's transportation settings.}
+\setlength{\parskip}{0em}
+}
+
+
+\section{From products to product service systems}
+\label{sec:pss}
+
+
+the idea is: ask why? What is really needed? challenge the system
+
+
  - radical change vs. end-of-pipe 
+ - functional innovation
  - pss
+
+[1] - Tukker, Arnold. “Eight Types of Product–service System: Eight Ways to Sustainability? Experiences from SusProNet.” Business Strategy and the Environment 13, no. 4 (2004): 246–60. 
+
+Compared notion of product / unit of service
+Products are potential units of service / Use is the realization of units of service
+``the main economic value of products does not originate in the mere existence of the product, but relates to its ability to deliver functionality or services to consumers over a certain period of time'' [1]
+Examples: 
+Product: car / Use: kilometer traveled
+Product: toy / Use: number of fun.hours
+How far are product used? How fare are units of service wasted?
+Through low intensity of use
+Cars are daily used only 5% of the time (Meijkamp, R., 1998. Changing consumer behaviour through eco-efficient services: an empirical study of car sharing in the Netherlands. Business Strategy and the )
+During its entire lifetime, a drill is used only 12 to 13 minutes %(Boltsman, R. 2010. The case for collaborative consumption, TEDx Sydney Dec. 2010, http://www.ted.com/talks/rachel_botsman_the_case_for_collaborative_consumption.html)
+Through premature discarding
+Physical lifetime  Value lifetime 
+Average service time of a cellular phone is around 18 month
+
+
+
+Ownership to usership: %https://pdfs.semanticscholar.org/4edb/250d497994b226509fcdd052d7afc5199add.pdf#page=25
+
+
+\bibliographystyle{ieeetr}
+\bibliography{../References}
+\end{document}
