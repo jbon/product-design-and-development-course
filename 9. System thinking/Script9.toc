@@ -3,4 +3,11 @@
 \contentsline {subsection}{\numberline {1.2}Example: smart city services}{2}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}From corrective to preventive action}{3}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}Conclusion: ask why}{4}{subsection.1.4}
-\contentsline {section}{\numberline {2}From products to product service systems}{4}{section.2}
+\contentsline {section}{\numberline {2}From products to Product Service Systems (PSS)}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Examples}{5}{subsection.2.1}
+\contentsline {paragraph}{Electrolux pay per wash.}{5}{section*.2}
+\contentsline {paragraph}{Xerox pay per copy.}{6}{section*.3}
+\contentsline {paragraph}{Grenoble's M\IeC {\'e}troV\IeC {\'e}lo.}{6}{section*.4}
+\contentsline {subsection}{\numberline {2.2}Definition and typology}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Advantages}{6}{subsection.2.3}
+\contentsline {section}{\numberline {3}From system thinking to systems engineering}{7}{section.3}

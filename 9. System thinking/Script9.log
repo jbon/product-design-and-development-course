@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  6 JUL 2018 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  9 JUL 2018 19:11
 entering extended mode
 **./Script9.tex
 (Script9.tex
@@ -751,25 +751,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/jb2971/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4
-] (Script9.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+] [5] [6] (Script9.bbl [7])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (Script9.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `Script9.out' has not changed.
-(rerunfilecheck)             Checksum: 410C9FBE17458A7D74433DC1D02616A9;462.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+(rerunfilecheck)             Checksum: 7AE9EC24E70216ABCFE6F27BC299B980;741.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 6182 strings out of 493305
- 90709 string characters out of 3129367
- 173568 words of memory out of 3000000
- 9665 multiletter control sequences out of 15000+200000
+ 6222 strings out of 493305
+ 91515 string characters out of 3129367
+ 174332 words of memory out of 3000000
+ 9685 multiletter control sequences out of 15000+200000
  9560 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,35p,1443b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,8n,35p,1658b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcti1000.pk> <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\tcrm1000.pk><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/font
@@ -780,11 +780,15 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/jb29
 C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr12.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmr17.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/jb2971/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Script9.pdf (5 pages, 138550 bytes).
+ts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jb2971/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jb2971/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jb2971/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Us
+ers/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb>
+Output written on Script9.pdf (8 pages, 192169 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
