@@ -14,16 +14,13 @@ NormalPos.top=32
 NormalPos.right=2396
 NormalPos.bottom=1121
 Class=LaTeXView
-Document=Script9.tex
+Document=Script10.tex
 
 [Frame0_View0,0]
-TopLine=90
-Cursor=1514
+TopLine=61
+Cursor=8279
 
 [SessionInfo]
 FrameCount=1
 ActiveFrame=0
-
-[Bookmarks]
-Script9.tex=113 
 

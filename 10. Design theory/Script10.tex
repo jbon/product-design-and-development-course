@@ -1,0 +1,77 @@
+\documentclass{article}
+
+% style elements
+% Slide numbers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+% Key readings \textsuperscript{\color{Magenta}[key reading]}
+
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment}
+\usepackage{textcomp}
+
+\newcounter{slide}
+\newcounter{exercise}
+
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+\begin{document}
+
+
+\title{Design theory}
+
+\author{Product Design and Development (ME30294). Lecture 10. \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
+\date{Last update: \today}
+
+\maketitle
+
+\begin{abstract}
+This lecture introduces some descriptive models of the design activity in order to explain the relevance of the more practical content delivered in this module. 
+Covered topics
+- co-evolution Maher
+- Linkography 
+- Gero
+- CK
+- case based reasoning / similarity / heuristics / fixation / triz and dfx / magazines
+- design as decision making / finding the good compromise between criteria / balancing trade offs
+\end{abstract}
+
+\tableofcontents
+
+\section{Design as a temporal process}
+\label{sec:temporal}
+
+\subsection{Co-evolution of problem and solution spaces}
+\label{sec:coevolution}
+Attempting to define the best moment in the product development process for defining product requirements, Ulrich and Eppinger's reference lecture on product design and development says: ``In an ideal world, the team would establish the product specifications \emph{once} early in the development process and \emph{then} proceed to design and engineer the product to \emph{exactly} meet those specifications.'' \cite[p. 73, emphases are not in the original text]{ulrichProductDesignDevelopment2011}. This sentence begins with ``in an ideal world'' because it acknowledges that problems do not precede solutions in design, although it would be way easier to handle product development as if it would be the case. Instead, the design activity involves a co-evolution of the problem and the solution \cite{maherFormalisingDesignExploration1996} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. ``[The] formulation of the problem at any stage is not final [...]. As the design progresses, the designer learns more about possible problem and solution structures as new aspects of the situation become apparent and the inconsistencies inherent in the formulation of the problem are revealed. As a result, [...] the problem and the solution are redefined'' (\emph{ibid.}, p. 5). Consequently, it appears that design involves an ``iterative interplay to `fix' a problem from the problem space and to `search' plausible solutions from the corresponding solution space'' (\emph{ibid.}, p. 1).
+
+In summary, design is about refining \emph{both} a problem \emph{and} a compatible solution to this problem. Consequently, the design activity does not start with precise product specifications but produces them out of rough ``hopes and aspirations'', eventually gained from a study of customer needs \cite[p. 73]{ulrichProductDesignDevelopment2011} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The exit condition of this interactive process does not only lie in the consistency between the problem and the solution, but in external factors: for example, time and money went out, or the team is satisfied with the degree of precision achieved in the formulation of both problems and solutions. 
+
+\subsection{Design as an ill-defined problem}
+\label{sec:DesignAsAnIllDefinedProblem}
+This situation is due to the very nature of design activity which amounts to ``problem solving without a goal'' \cite[p. 106]{simon1996sciences}. Problems in design are ill-defined, like equation systems where there are more unknowns than equations. Ill-defined problems are those that have less specific criteria for knowing when the problem is solved, and do not supply all the information required for solution. The distinction between ill- and well-defined problems is based on the amount of information guiding the search of solution given in the task environment. The fact that the problem evolves together with the solution makes design a rather unpredictable and opportunistic activity: ``To discover gold, one does not even have to be looking for it (although frequently one is), and if silver or copper shows up instead of gold, that outcome will usually be welcome too. The test that something has been discovered is that something new has emerged that could not have been predicted with certainty and that the new thing has value or interest of some kind.''
+
+\subsection{Practical implications}
+\label{sec:practicalimplications}
+
+The co-evolution of the problem and solution space is illustrated by the difficulty to implement in practice rigid stage-gate process models such as the \href{https://en.wikipedia.org/wiki/Waterfall\_model}{Waterfall model of engineering design} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} or the Pahl \& Beitz design process \cite{pahlEngineeringDesignSystematic2007}. These sequential design approaches start with defining the requirements. The design then only starts once the requirements are defined. While this process may work in cases where design has low chances to lead to unpredicted outcomes (e.g. slight redesign of a product based on a well-managed technology), it may not be beneficial in radically new product design. Indeed, in these cases, the refined understanding of the problem yielded by the design activity may lead to challenging the requirements, an event which requires iteration and which does not fit with the logic of stage-gate processes.
+
+In reaction to these difficulties, the software branch came out in the 90's with new project management principles under the umbrella of ``agile software development'' \cite{beck2001manifesto} which then spread to other engineering disciplines like engineering design. Among the key principles of agile are a ``close collaboration between the development team and business stakeholders'' in order to make the users participate in the incremental refinement of requirements. This requires delivering ``working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale'', discussing the results with users in ``face-to-face conversation'' and being open for ``changing requirements, even late in development''. Examples of agile management methods in software engineering are \href{https://en.wikipedia.org/wiki/Extreme_programming}{Extreme Programming (XP)} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} which is based on short development cycles and \href{https://en.wikipedia.org/wiki/Scrum_(software_development)}{Scrum} which is based on weekly design sprints.
+
+Considering design as a co-evolution of both problem and solution spaces also helps understand why customers may have difficulties to express their requirements in practice. A famous (\href{https://quoteinvestigator.com/2011/07/28/ford-faster-horse/}{but apocryphal}) quote attributed to Henry Ford says: ``If I had asked people what they wanted, they would have said faster horses'' {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. This iconic case illustrates that requirements may emerge only after a solution has been proposed. This problem is also a part of communication problem the widely encountered in software engineering and humorously referred to as the `\href{https://en.wikipedia.org/wiki/Tree_swing_cartoon}{Tree Swing Cartoon}' {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. End users may be delivered with a solution which does not match their need even if they have been asked what they wanted at the beginning of the process. If they do not take part in the whole product development process, they don't participate in the iterative refinement of the problem and the solution. They don't profit from the better understanding gained by the development team, which may converge towards a direction which is not useful for the users. Avoiding this pitfall is another benefit of agile project management methods. 
+
+\section{Design as a cognitive activity}
+\label{sec:cognitive}
+
+
+
+\bibliographystyle{ieeetr}
+\bibliography{../References}
+\end{document}
