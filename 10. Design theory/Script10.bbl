@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ulrichProductDesignDevelopment2011}
 K.~Ulrich and S.~Eppinger, {\em {Product Design and Development}}.
@@ -23,5 +23,31 @@ G.~Pahl, W.~Beitz, J.~Feldhusen, and K.-H. Grote, {\em Engineering {{Design}}:
 K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
   J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, and {others}, ``Manifesto
   for agile software development,'' 2001.
+
+\bibitem{maher2014case}
+M.~L. Maher, M.~B. Balachandran, and D.~M. Zhang, {\em Case-Based Reasoning in
+  Design}.
+\newblock {Psychology Press}, 2014.
+
+\bibitem{goncalvesInspirationChoicesThat2016}
+M.~Gon{\c c}alves, C.~Cardoso, and P.~{Badke-Schaub}, ``Inspiration choices
+  that matter: The selection of external stimuli during ideation,'' {\em Design
+  Science}, vol.~2, Jan. 2016.
+
+\bibitem{fuDesignPrinciplesLiterature2016}
+K.~K. Fu, M.~C. Yang, and K.~L. Wood, ``Design {{Principles}}: {{Literature
+  Review}}, {{Analysis}}, and {{Future Directions}},'' {\em Journal of
+  Mechanical Design}, vol.~138, pp.~101103--101103, Aug. 2016.
+
+\bibitem{yilmazCanExperiencedDesigners2013}
+S.~Yilmaz, S.~R. Daly, J.~L. Christian, C.~M. Seifert, and R.~Gonzalez, ``Can
+  experienced designers learn form new tools? {{A}} case study of idea
+  generation in a professional engineering team,'' {\em International Journal
+  of Design Creativity and Innovation}, 2013.
+
+\bibitem{yilmazHowDesignersGenerate2015}
+S.~Yilmaz, S.~R. Daly, C.~M. Seifert, and R.~Gonzalez, ``How do designers
+  generate new ideas? {{Design}} heuristics across two disciplines,'' {\em
+  Design Science}, vol.~1, Nov. 2015.
 
 \end{thebibliography}
