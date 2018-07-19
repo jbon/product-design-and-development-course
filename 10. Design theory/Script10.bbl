@@ -10,26 +10,6 @@ A.~Hatchuel and B.~Weil, ``A new approach of innovative {{Design}}: An
   {{ICED}} 03, the 14th {{International Conference}} on {{Engineering Design}},
   {{Stockholm}}}, 2003.
 
-\bibitem{ulrichProductDesignDevelopment2011}
-K.~Ulrich and S.~Eppinger, {\em {Product Design and Development}}.
-\newblock New York: {McGraw-Hill Higher Education}, 5~ed., Aug. 2011.
-
-\bibitem{maherFormalisingDesignExploration1996}
-M.~L. Maher, J.~Poon, and S.~Boulanger, ``Formalising {{Design Exploration}} as
-  {{Co}}-{{Evolution}},'' in {\em Advances in {{Formal Design Methods}} for
-  {{CAD}}}, IFIP \textemdash{} The International Federation for Information
-  Processing, pp.~3--30, {Springer, Boston, MA}, 1996.
-
-\bibitem{pahlEngineeringDesignSystematic2007}
-G.~Pahl, W.~Beitz, J.~Feldhusen, and K.-H. Grote, {\em Engineering {{Design}}:
-  {{A Systematic Approach}}}.
-\newblock London: {Springer-Verlag}, 3~ed., 2007.
-
-\bibitem{beck2001manifesto}
-K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
-  J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, and {others}, ``Manifesto
-  for agile software development,'' 2001.
-
 \bibitem{maher2014case}
 M.~L. Maher, M.~B. Balachandran, and D.~M. Zhang, {\em Case-Based Reasoning in
   Design}.
@@ -55,5 +35,25 @@ S.~Yilmaz, S.~R. Daly, J.~L. Christian, C.~M. Seifert, and R.~Gonzalez, ``Can
 S.~Yilmaz, S.~R. Daly, C.~M. Seifert, and R.~Gonzalez, ``How do designers
   generate new ideas? {{Design}} heuristics across two disciplines,'' {\em
   Design Science}, vol.~1, Nov. 2015.
+
+\bibitem{maherFormalisingDesignExploration1996}
+M.~L. Maher, J.~Poon, and S.~Boulanger, ``Formalising {{Design Exploration}} as
+  {{Co}}-{{Evolution}},'' in {\em Advances in {{Formal Design Methods}} for
+  {{CAD}}}, IFIP \textemdash{} The International Federation for Information
+  Processing, pp.~3--30, {Springer, Boston, MA}, 1996.
+
+\bibitem{ulrichProductDesignDevelopment2011}
+K.~Ulrich and S.~Eppinger, {\em {Product Design and Development}}.
+\newblock New York: {McGraw-Hill Higher Education}, 5~ed., Aug. 2011.
+
+\bibitem{pahlEngineeringDesignSystematic2007}
+G.~Pahl, W.~Beitz, J.~Feldhusen, and K.-H. Grote, {\em Engineering {{Design}}:
+  {{A Systematic Approach}}}.
+\newblock London: {Springer-Verlag}, 3~ed., 2007.
+
+\bibitem{beck2001manifesto}
+K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
+  J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, and {others}, ``Manifesto
+  for agile software development,'' 2001.
 
 \end{thebibliography}

@@ -3,10 +3,9 @@
 \contentsline {paragraph}{Intellectual.}{2}{section*.2}
 \contentsline {paragraph}{Teleological.}{2}{section*.3}
 \contentsline {paragraph}{Universal.}{2}{section*.4}
-\contentsline {section}{\numberline {3}Design as a temporal process}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Co-evolution of problem and solution spaces}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Design as an ill-defined problem}{3}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Practical implications}{4}{subsection.3.3}
-\contentsline {section}{\numberline {4}Design as a cognitive activity}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Design by analogy}{5}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Practical implications}{6}{subsection.4.2}
+\contentsline {section}{\numberline {3}Exact vs. heuristic problem solving}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Design by analogy}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Practical implications}{4}{subsection.3.2}
+\contentsline {section}{\numberline {4}Problem solving without a goal}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Co-evolution of problem and solution spaces}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Practical implications}{5}{subsection.4.2}
