@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{simon1996sciences}
+H.~A. Simon, {\em The Sciences of the Artificial}.
+\newblock {MIT press}, 3~ed., 1996.
+
+\bibitem{hatchuel2003new}
+A.~Hatchuel and B.~Weil, ``A new approach of innovative {{Design}}: An
+  introduction to {{CK}} theory.,'' in {\em {{DS}} 31: {{Proceedings}} of
+  {{ICED}} 03, the 14th {{International Conference}} on {{Engineering Design}},
+  {{Stockholm}}}, 2003.
+
 \bibitem{ulrichProductDesignDevelopment2011}
 K.~Ulrich and S.~Eppinger, {\em {Product Design and Development}}.
 \newblock New York: {McGraw-Hill Higher Education}, 5~ed., Aug. 2011.
@@ -9,10 +19,6 @@ M.~L. Maher, J.~Poon, and S.~Boulanger, ``Formalising {{Design Exploration}} as
   {{Co}}-{{Evolution}},'' in {\em Advances in {{Formal Design Methods}} for
   {{CAD}}}, IFIP \textemdash{} The International Federation for Information
   Processing, pp.~3--30, {Springer, Boston, MA}, 1996.
-
-\bibitem{simon1996sciences}
-H.~A. Simon, {\em The Sciences of the Artificial}.
-\newblock {MIT press}, 3~ed., 1996.
 
 \bibitem{pahlEngineeringDesignSystematic2007}
 G.~Pahl, W.~Beitz, J.~Feldhusen, and K.-H. Grote, {\em Engineering {{Design}}:
