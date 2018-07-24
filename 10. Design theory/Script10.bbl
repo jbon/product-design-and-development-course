@@ -56,4 +56,10 @@ K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
   J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, and {others}, ``Manifesto
   for agile software development,'' 2001.
 
+\bibitem{hatchuel2004ck}
+A.~Hatchuel, P.~Le~Masson, B.~Weil, and {others}, ``{{CK}} theory in practice:
+  Lessons from industrial applications,'' in {\em {{DS}} 32: {{Proceedings}} of
+  {{DESIGN}} 2004, the 8th {{International Design Conference}}, {{Dubrovnik}},
+  {{Croatia}}}, pp.~245--258, 2004.
+
 \end{thebibliography}
