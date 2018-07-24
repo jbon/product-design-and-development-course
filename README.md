@@ -19,3 +19,7 @@ Don't hesitate to:
 * create an issue
 * fork and create a pull request
 * [contact me](http://jeremybonvoisin.com/WordPress3/?page_id=25)
+
+### Licensing terms
+
+All works in this repository are released under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
