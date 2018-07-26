@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  24 JUL 2018 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  25 JUL 2018 13:59
 entering extended mode
 **./Script10.tex
 (Script10.tex
@@ -752,35 +752,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/jb2971/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4
 ] [5] [6] [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 161.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
 
 ("C:\Users\jb2971\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 
 [8] [9] (Script10.bbl [10])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
  [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (Script10.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `Script10.out' has not changed.
 (rerunfilecheck)             Checksum: CFFD0A43C49E8B4066A7E8D08644BF63;770.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 6242 strings out of 493305
- 91807 string characters out of 3129367
- 175221 words of memory out of 3000000
- 9700 multiletter control sequences out of 15000+200000
+ 6244 strings out of 493305
+ 91844 string characters out of 3129367
+ 175259 words of memory out of 3000000
+ 9701 multiletter control sequences out of 15000+200000
  9560 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,35p,1678b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -802,9 +798,9 @@ Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr9.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Script10.pdf (11 pages, 224387 bytes).
+Output written on Script10.pdf (11 pages, 224515 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 45 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
