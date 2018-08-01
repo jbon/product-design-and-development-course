@@ -18,6 +18,15 @@ A.~Hatchuel and B.~Weil, ``A new approach of innovative {{Design}}: An
   {{ICED}} 03, the 14th {{International Conference}} on {{Engineering Design}},
   {{Stockholm}}}, 2003.
 
+\bibitem{cross2011design}
+N.~Cross, {\em Design Thinking: {{Understanding}} How Designers Think and
+  Work}.
+\newblock {Berg}, 2011.
+
+\bibitem{rittelDilemmasGeneralTheory1973}
+H.~W.~J. Rittel and M.~M. Webber, ``Dilemmas in a general theory of planning,''
+  {\em Policy Sciences}, vol.~4, pp.~155--169, June 1973.
+
 \bibitem{maher2014case}
 M.~L. Maher, M.~B. Balachandran, and D.~M. Zhang, {\em Case-Based Reasoning in
   Design}.
@@ -44,11 +53,6 @@ S.~Yilmaz, S.~R. Daly, C.~M. Seifert, and R.~Gonzalez, ``How do designers
   generate new ideas? {{Design}} heuristics across two disciplines,'' {\em
   Design Science}, vol.~1, Nov. 2015.
 
-\bibitem{cross2011design}
-N.~Cross, {\em Design Thinking: {{Understanding}} How Designers Think and
-  Work}.
-\newblock {Berg}, 2011.
-
 \bibitem{maherFormalisingDesignExploration1996}
 M.~L. Maher, J.~Poon, and S.~Boulanger, ``Formalising {{Design Exploration}} as
   {{Co}}-{{Evolution}},'' in {\em Advances in {{Formal Design Methods}} for
@@ -63,6 +67,11 @@ K.~Ulrich and S.~Eppinger, {\em {Product Design and Development}}.
 G.~Pahl, W.~Beitz, J.~Feldhusen, and K.-H. Grote, {\em Engineering {{Design}}:
   {{A Systematic Approach}}}.
 \newblock London: {Springer-Verlag}, 3~ed., 2007.
+
+\bibitem{vdi1993design}
+{VDI}, ``Design {{Handbook}} 2221, {{Systematic Approach}} to the
+  {{Development}} and {{Design}} of technical {{Systems}} and {{Products}},''
+  1993.
 
 \bibitem{beck2001manifesto}
 K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,

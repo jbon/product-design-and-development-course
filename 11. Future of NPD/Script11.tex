@@ -1,0 +1,135 @@
+\documentclass{article}
+
+% style elements
+% Slide numbers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+% Key readings \textsuperscript{\color{Magenta}[key reading]}
+
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment}
+\usepackage{textcomp}
+
+\newcounter{slide}
+\newcounter{exercise}
+
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+\begin{document}
+
+\title{New trends in NPD}
+
+\author{Product Design and Development (ME30294). Lecture 11. \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
+\date{Last update: \today}
+
+\maketitle
+
+\begin{abstract}
+- open innovation
+- social product development
+- crowdsourcing
+- open source hardware
+- google engineering
+- designer as a community manager
+\end{abstract}
+
+\tableofcontents
+
+\section{Trends of citizen participation in NPD}
+\label{sec:context}
+Several factors tend to challenge the traditional distinction between professional and layperson and to enable individual participation in product development processes. 
+
+The first is the increasing virtual nature of product creation. The share of product development activities where no computer is involved is near zero nowadays. The use of physical prototypes for means of design validation is now superseded by `digital mockups' enabled by the increased performance of 3D-modeling and simulation techniques. Even car \href{https://www.youtube.com/watch?v=Cy_QFqnc88Q&feature=youtu.be}{crash tests} can now be performed digitally and with high fidelity {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. This evolution allows the product development process to be more distributed in space and product related information to be more shareable. 
+
+The second is the increasing scope of tools available for laypeople {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. It is now common for pupils or students to have access to a desktop-size machine-tools such as a 3D-printer or a CNC mill. Medium-size machines such as laser cutters are increasingly available to every interested person in a growing number of FabLabs and Makerspaces. At the same time, there is a growing offer of easy to use 3D-modelling software such as \href{https://www.tinkercad.com/}{TinkerCAD} as well as of open source or free to use parametric CAD software such as \href{https://www.freecadweb.org/}{FreCAD} or \href{https://www.onshape.com/}{OnShape}. It is easier than ever to share 3D-models with the use of online libraries such as \href{https://www.thingiverse.com/}{Thingiverse} or in-browser 3D-viewers such as \href{https://sketchfab.com/}{Sketchfab}. There is also an increasing offer of \href{https://en.wikipedia.org/wiki/Computer-supported_cooperative_work}{computer supported collaborative work} platforms allowing not only to communicate but also to structure coordinated work. 
+
+In summary, individuals have more and more access to professional tools of product design: they can sketch products and develop 3D-models, they can prototype and share these models online, they can coordinate their action to develop more complex designs. This evolution supports the emergence of product development activities taking place outside any organization but which can be shared with organizations because they are digital. It supports a deeper participaton of individuals in product development and tends to blur the traditional distinction between home tinkering and professional product design and development.  
+
+\subsection{Perspective of the firm: open innovation}
+\label{sec:OI}
+``Today, the common understanding of the innovation process builds on the observation that firms rarely innovate alone and that innovation is a result of interactive relationships among producers, users, and many other different institutions [...]. The early Schumpeterian (1942) model of the lone entrepreneur bringing innovations
+to markets has been superseded by a richer picture of different actors in networks and communities'' \cite{pillerSocialMediaSocial2011}. This contemporary understanding replaces the formerly dominant ``funnel model'' of innovation based on a stage-gate product development process {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} where ``the initial phase is a wide screening of the raw ideas in order to find the most successful one; then, the approved ideas are turned into projects and developed; of these, just few are actually launched on the market'' \cite{colombo2016open}. The new dominant model of innovation is those of an ``open innovation'', defined as ``the use of purposive inflows and outflows of knowledge to accelerate internal innovation, and expand the markets for external use of innovation, respectively'' \cite{chesbroughOpenInnovationNew2006}{\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. ``While in purely closed innovation discarded ideas or projects do not generate value, in the open innovation paradigm, they can be licensed to external companies as intellectual property, or generate spin-offs and enter new markets. [... External] sources of knowledge can be leveraged in to order to foster novel ideas at the beginning of the NPD process or during the process as technology insource'' \cite{colombo2016open}.
+
+In line with this, there is nowadays an increased interest in co-creation defined as an ``active, creative and social collaboration process between producers and customers in the context of new product development'' \cite{pillerSocialMediaSocial2011} \footnote{co-creation is a relatively new and moving field and there is no dominant vocabulary to describe it. Co-design can alternatively referred to as `crowdsourcing' or `social product creation' depending on the authors}. Companies may interact with their communities of users in order to let emerge product innovation ideas the companies R\&D departments can turn into new products. This is for example what the French sportswear company \href{https://team.fr.raidlight.com/categories/atelier-de-conception-ouvert-a-tous.369/}{Raidlight} does {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}: they maintain a constant link with their community of users, they organize design challenges, they let users vote for the best ideas, they invite user to come to the R\&D department to explain their innovation ideas... Doing so, they establish the image of a participative company, they build a feeling of belonging and therewith customer fidelity, and they get ideas innovative from those who need them. The company \href{https://quirky.com}{Quirky} even goes a step further by basing its entire business model on crowdsourcing. They help individual creators to develop and bring to the market consumer products. They then share the benefits of product sales with the involved creators. As for \href{https://www.openideo.com/}{OPENIdeo}, it is one of the numerous companies which acts as a service for other companies to manage their innovation challenges. 
+
+\subsection{Citizen point of view: the maker culture}
+\label{sec:maker}
+The increased ability of individuals to take part in creative processes went along with the emergence of a critical counter-culture of `makers' challenging the authority of established institutions (such schools, corporations, governments) and promoting individual action. The so-called `maker culture' embody the concept of commons-based peer production: ``peer production is a model of social production, emerging alongside contract- and market-based, managerial-firm based and state-based production. These forms of production are typified by two core characteristics. The first is decentralization. Authority to act resides with individual agents faced with opportunities for action, rather than in the hands of a central organizer, like the manager of a firm or a bureaucrat. The second is that they use social cues and motivations, rather than prices or commands, to motivate and coordinate the action of participating agents.'' \cite{benklerCommonsbasedPeerProduction2006}. The values this culture are:
+\begin{itemize}
+	\item Volunteerism and self-selection of tasks. 
+\end{itemize}
+volunteerism and self-selection of tasks
+refusal of passive consumer culture (DIY)
+(knowledge) sharing without financial contribution (open source)
+community, collective effort (collaborative development)
+\section{Open Source Hardware}
+\label{sec:osh}
+OSH products are those products ``whose design has been released to the public in such a way that anyone can make, modify, distribute, and use'' them \cite{opensourcehardwareassociationOpenSourceHardware2016} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. In other words, an OSH product is a physical artefact whose documentation is released under a license granting anyone with production and distribution rights, and is detailed enough to enable anyone to study and develop it further. The concept of OSH is based on an adaptation of the four freedoms of open source (first stated in the context of software development by the free software fundation \cite{freesoftwarefoundationFreeSoftwareDefinition2015}) to the field of physical products \cite{powellDemocratizingProductionOpen2012}: 
+\begin{itemize}
+	\item \textbf{Hardware freedom 0}. The freedom to use the device for any purpose.
+	\item \textbf{Hardware freedom 1}. The freedom to study how the device works and change it to make it to do what you wish---access to the complete design is precondition to this.
+	\item \textbf{Hardware freedom 2}. The freedom to redistribute the device and/or design (remanufacture).
+	\item \textbf{Hardware freedom 3}. The freedom to improve the device and/or design, and release your improvements (and modified versions in general) to the public, so that the whole community benefits.
+\end{itemize}
+
+The four freedoms of OSH require the publication of the `source' of a `design'. In contrast with software, there is no clear definition of what the `source' of a hardware product is \cite{bonvoisinWhatSourceOpen2017}. Instead, it may take different forms depending on the intention of the product originator to engage into OSH {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}:
+\begin{itemize}
+  \item The originator intends to build transparency for their customers. In this case, relevant documentation may be computer aided design (CAD) files and drawings.
+  \item The originator wants the product to be widely produced and adopted beyond their own sphere of influence. In this case, relevant documentation may be bills of materials and assembly instructions.
+  \item The originator intends to create a community-based product development process allowing the participation of any interested developer. In this case, it is not only relevant to share the CAD files, but also information about the development process: what are the expected requirements for the product, what has been already achieved and what are the pending tasks, how can a contributor join in the project, etc.
+\end{itemize}
+
+\subsection{History and contemporary relevance}
+\label{sec:OSHhistory}
+OSH results from a recent extension of the open source movement outside software development and into the realms of physical products {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. In software engineering, open source products have been developed for around 30 years and generate nowadays billion-dollar businesses. The first domain to which the principles of open source have been extended is electronic hardware. The flagship of this new era and one of today's most successful companies building on open source hardware is \href{https://www.arduino.cc/}{Arduino}. More recently, the extension of the open source principles has also reached other types of physical products such as mechanical products, mechatronic products, construction, and textile products. Two projects which raised large attention from the public are \href{https://localmotors.com/}{Local Motors}\footnote{Local Motors's business model however moved over time from an open-source-like model to a crowdsourcing.} and \href{https://www.opensourceecology.org/}{Open Source Ecology}. 
+
+The application of open source principles to hardware has mainly be developed in grassroots communities and non-commercial sectors such as NGOs and academia. These principles in process of settlement have already found their way to marketplaces. Some emerging businesses such as start-ups and medium-size enterprises have built their operations on OSH, especially in the supply market for makers. Two examples of them are the companies \href{https://ultimaker.com/}{Ultimaker} and \href{https://www.alephobjects.com/}{Aleph Objects}, both developing, manufacturing and distributing 3D-printers. Another example is the company \href{https://ztautomations.com/openbeam/}{OpenBeam}, producing extruded aluminum framing systems for rapid prototyping of machinery building. OSH also raised interest of larger industrial players as exemplified by the automotive industry. Tesla, one of the newcomers and challengers in this field, engaged in this way by \href{https://www.tesla.com/blog/all-our-patent-are-belong-you}{declaring they would ``not initiate patent lawsuits against anyone who, in good faith, wants to use our technology.''} The more established French automobile company Renault announced in 2016 a \href{https://www.openmotors.co/renaultpomsignup/}{partnership with Open Motors to open up the electric car Twizy}. Although the realization of these strategies has not issued concrete open source content so far, they indicate that OSH gained attention out of the sphere of grassroots initiatives and individual making.
+
+There is today a blooming and diverse activity building on open source hardware. On one side of the spectrum, there is the publication of simple products designs performed by individual ``home engineers''. This is supported by the increased affordability of 3D-printers as well as the availability of online sharing places for CAD models such as Thingiverse, which counts more than 1.1m uploaded objects. Although these objects are generally designed as one-person-projects, they are part of collaborative development practices in the form of sequential series of remakes: one maker develops one version which is taken over and developed further by someone else, and so on \cite{kyriakouKnowledgeReuseCustomization2017}{\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. On the other side of the spectrum, there are more complex OSH products combining different technologies, made of several parts, designed to satisfy demanding needs {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. These products are the result of NPD processes as described in this module, eventually happening in collaborative, distant and decentral settings. A curated directory of $>$200 products of this type can be seen \href{http://opensourcedesign.cc/observatory}{here}.
+
+\subsection{OSH development practices}
+\label{sec:dvppractices}
+
+There are basically two approaches to the development of OSH products depicted by the OSH life cycle {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The first approach is to reveal the result of a product development project performed in a private setting. The the end of this process is marked by the publication/revelation of the product documentation which has been kept private so far. The second approach is to develop the product in a community-based setting. The end of this process is marked by the release of already public documents in a stable version. In both cases, the resulting OSH product can be redesigned either in a private or in a community-based setting. Also, a product can be simultaneously in different states of the life cycle, that is, be a stable OSH product which is produced, be the object of a community-based improvement process and be further developed by other actors in a private setting.
+
+{\color{red}characteristics of open processes}
+
+\subsection{Advantages of open source}
+\label{sec:advantages}
+The relevance of open source and especially of OSH is supported by sustainability, business and macroeconomic arguments.
+
+\paragraph{Product quality.} The most cited argument in favor of open source is that ``given enough eyeballs all bugs are shallow''. In other words, the more people can have a look, the more issues they will be able to raise and solve. Individuals can check whatever they value as quality and eventually take action to improve the product. This can for example lead to safer products, as discussed in the software branch, where open source has been advocated to lead to better digital security. This can also lead to more durable products: potential breaking points can be more easily identified and product obsolescence openly discussed.
+
+\paragraph{Citizen capability.} Open source goes along with a lower user dependence in case of product fault. Having access to technical information allows users to find solutions by themselves in case the product originator cannot provide those, whatever the reason. This supports users to extend product lifetime for economical or environmental reasons, if they wish so. A side effect is to support technological literacy. Open source provides people wanting to develop their technical skills with more cases to quench their thirst for learning or doing things on their own.
+
+\paragraph{R\&D efficiency.} Opening the product development process to the participation of volunteers is a promise of either decreased R\&D costs or increase of fresh and innovative ideas coming in. Letting other people participate enables the emergence of an original ecosystem of stakeholders the company may not have thought working with in the first place. It may also allow identifying key talents to be hired. In summary information disclosure may contribute to the prosperity of the firm throuhg better, cheaper products. 
+
+\paragraph{Speed of innovation.} Openness supports reusability of intellectual assets. It helps avoiding ``reinventing the wheel'' and accelerating product development. By having access to the technical documentation of other products you can pick up the things you need in them. This is what massively happens in software development and why it is so fast nowadays. Because you just find on the internet the bits of code you need in 99\% of the cases. Moreover, the replicability of hardware may support faster adoption of best available technologies. Inventions are not locked-in but made available, which increases the chances they will actually be provided where they are needed.
+
+\section{Outlook: the designer of tomorrow}
+\label{sec:designerofthefuture}
+- designer as a community manager
+senior desinger, "`have you thought about this"', pointing good design practice,
+
+\section*{Credits}
+\label{sec:credits}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+These works are released under a \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License}. {\color{red}The paragraph about OSH contains copied text from.... licensed under a .....}
+
+\begin{comment}
+https://www.researchgate.net/publication/320601945_Distributed_economies_through_open_design_and_digital_manufacturing
+
+\end{comment}
+
+\bibliographystyle{ieeetr}
+\bibliography{../References}
+\end{document}
+
