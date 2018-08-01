@@ -1,12 +1,11 @@
 \contentsline {section}{\numberline {1}Trends of citizen participation in NPD}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Perspective of the firm: open innovation}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Citizen point of view: the maker culture}{3}{subsection.1.2}
-\contentsline {section}{\numberline {2}Open Source Hardware}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}History and contemporary relevance}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}OSH development practices}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Advantages of open source}{6}{subsection.2.3}
+\contentsline {section}{\numberline {2}Participation in firm-led NPD}{2}{section.2}
+\contentsline {section}{\numberline {3}Commnuity-based product development}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}History and contemporary relevance}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}OSH development practices}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Advantages of open source}{6}{subsection.3.3}
 \contentsline {paragraph}{Product quality.}{6}{section*.2}
 \contentsline {paragraph}{Citizen capability.}{6}{section*.3}
 \contentsline {paragraph}{R\&D efficiency.}{6}{section*.4}
 \contentsline {paragraph}{Speed of innovation.}{6}{section*.5}
-\contentsline {section}{\numberline {3}Outlook: the designer of tomorrow}{7}{section.3}
+\contentsline {section}{\numberline {4}Outlook: the designer of tomorrow}{6}{section.4}

@@ -1,20 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{pillerSocialMediaSocial2011}
-F.~T. Piller, A.~Vossen, and C.~Ihl, ``From {{Social Media}} to {{Social
-  Product Development}}: {{The Impact}} of {{Social Media}} on
-  {{Co}}-{{Creation}} of {{Innovation}},'' {{SSRN Scholarly Paper}} ID 1975523,
-  {Social Science Research Network}, Rochester, NY, Dec. 2011.
-
-\bibitem{colombo2016open}
-E.~F. COLOMBO, ``Open innovation meets {{Changeability}}: {{Strategic}} design
-  analyses for {{Cyber}}-physical {{Industry}} platforms,'' 2016.
-
-\bibitem{chesbroughOpenInnovationNew2006}
-H.~W. Chesbrough, {\em Open {{Innovation}}: {{The New Imperative}} for
-  {{Creating}} and {{Profiting}} from {{Technology}}}.
-\newblock {Harvard Business Press}, 2006.
-
 \bibitem{gershenfeldFabComingRevolution2007}
 N.~A. Gershenfeld, {\em Fab: The Coming Revolution on Your Desktop--from
   Personal Computers to Personal Fabrication}.
@@ -24,6 +9,23 @@ N.~A. Gershenfeld, {\em Fab: The Coming Revolution on Your Desktop--from
 Y.~Benkler and H.~Nissenbaum, ``Commons-based {{Peer Production}} and
   {{Virtue}},'' {\em Journal of Political Philosophy}, vol.~14, no.~4,
   pp.~394--419, 2006.
+
+\bibitem{pillerSocialMediaSocial2011}
+F.~T. Piller, A.~Vossen, and C.~Ihl, ``From {{Social Media}} to {{Social
+  Product Development}}: {{The Impact}} of {{Social Media}} on
+  {{Co}}-{{Creation}} of {{Innovation}},'' {{SSRN Scholarly Paper}} ID 1975523,
+  {Social Science Research Network}, Rochester, NY, Dec. 2011.
+
+\bibitem{colomboOpenInnovationMeets2016}
+E.~F. Colombo, {\em Open Innovation Meets {{Changeability}}: {{Strategic}}
+  Design Analyses for {{Cyber}}-Physical {{Industry}} Platforms}.
+\newblock {{PhD}}. dissertation, Politecnico di Milano, Department of
+  Mechanical Engineering, Feb. 2016.
+
+\bibitem{chesbroughOpenInnovationNew2006}
+H.~W. Chesbrough, {\em Open {{Innovation}}: {{The New Imperative}} for
+  {{Creating}} and {{Profiting}} from {{Technology}}}.
+\newblock {Harvard Business Press}, 2006.
 
 \bibitem{opensourcehardwareassociationOpenSourceHardware2016}
 {Open Source Hardware Association}, ``Open {{Source Hardware}} ({{OSHW}})
