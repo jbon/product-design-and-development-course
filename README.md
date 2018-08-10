@@ -1,17 +1,17 @@
 ### Contents
 
-This repository contains the scripts corresponding to my lectures in the course *Product Design And Development* for the Master of Engineering *Integrated Design and Engineering* at University of Bath. 
+This repository contains the scripts corresponding to my lectures in the module *Product Design And Development* for the Master of Engineering *Integrated Design and Engineering* at University of Bath. 
 
  * Lecture 8. Sustainability and Eco-design.
  * Lecture 9. System thinking (in progress)
- * Lecture 10. Design theory (in progress)
- * Lecture 11. Future trends in NPD (to do) 
+ * Lecture 10. Design theory (almost there)
+ * Lecture 11. Future trends in NPD. 
 
 ### Legend
-In each script, you will see:
-- emphasised expressions followed by an asterisk (e.g. "*sustainability* *"): these are important concepts which are defined later in the lecture. This format is used the first time the expression appears and in the "take-aways"
-- references to slides (e.g. "[Slide 12]" written in blue). Slides are not provided in this repository for the moment (as long as I haven't checked the copyrights)
-- take-aways at the end of each section, summarizing in short simplified sentences the content of the section
+In each script, there are:
+- emphasised expressions followed by an asterisk (e.g. "*sustainability* *"): these are important concepts which are defined later in the lecture. This format is used the first time the expression appears and in the "take-aways".
+- references to slides (e.g. "[Slide 12]" written in blue). Slides are not provided in this repository for the moment (as long as I haven't checked the copyrights).
+- take-aways at the end of each section, summarizing in short simplified sentences the content of the section.
 
 ### Got a proposition for improvement?
 
