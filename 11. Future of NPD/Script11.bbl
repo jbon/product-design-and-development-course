@@ -44,8 +44,7 @@ A.~Peterson and D.~Schaefer, ``Social {{Product Development}}:
   {{Development}} in the {{Socio}}-Sphere}, pp.~1--33, {Springer, Cham}, 2014.
 
 \bibitem{howeCrowdsourcingDefinition2006}
-J.~Howe, ``Crowdsourcing: {{A Definition}}.''
-  http://www.crowdsourcing.com/cs/2006/06/crowdsourcing\_a.html, June 2006.
+J.~Howe, ``Crowdsourcing: {{A Definition}},'' June 2006.
 
 \bibitem{opensourcehardwareassociationOpenSourceHardware2016}
 {Open Source Hardware Association}, ``Open {{Source Hardware}} ({{OSHW}})
@@ -70,5 +69,10 @@ H.~Kyriakou, J.~V. Nickerson, and G.~Sabnis, ``Knowledge {{Reuse}} for
   {{Customization}}: {{Metamodels}} in an {{Open Design Community}} for {{3D
   Printing}},'' {{SSRN Scholarly Paper}} ID 2924083, {Social Science Research
   Network}, Rochester, NY, Feb. 2017.
+
+\bibitem{corbet2012linux}
+J.~Corbet, G.~{Kroah-Hartman}, and A.~McPherson, ``Linux kernel development:
+  {{How}} fast it is going, who is doing it, what they are doing, and who is
+  sponsoring it,'' {\em The Linux Foundation}, pp.~1--13, 2012.
 
 \end{thebibliography}
