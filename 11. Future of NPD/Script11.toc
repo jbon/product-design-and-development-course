@@ -20,7 +20,3 @@
 \contentsline {section}{\numberline {4}Outlook: tomorrow's designer}{12}{section.4}
 \contentsline {paragraph}{Thesis 1.}{12}{section*.8}
 \contentsline {paragraph}{Thesis 2.}{12}{section*.9}
-\contentsline {paragraph}{Product quality.}{14}{section*.13}
-\contentsline {paragraph}{Citizen capability.}{14}{section*.14}
-\contentsline {paragraph}{R\&D efficiency.}{14}{section*.15}
-\contentsline {paragraph}{Speed of innovation.}{14}{section*.16}
