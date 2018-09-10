@@ -12,13 +12,11 @@ I.~Hybs and J.~S. Gero, ``An evolutionary process model of design,'' {\em
 H.~A. Simon, {\em The Sciences of the Artificial}.
 \newblock {MIT press}, 3~ed., 1996.
 
-\bibitem{hatchuel2003new}
-A.~Hatchuel and B.~Weil, ``A new approach of innovative {{Design}}: An
-  introduction to {{CK}} theory.,'' in {\em {{DS}} 31: {{Proceedings}} of
-  {{ICED}} 03, the 14th {{International Conference}} on {{Engineering Design}},
-  {{Stockholm}}}, 2003.
+\bibitem{normanDesignEverydayThings2013}
+D.~Norman, {\em {The Design of Everyday Things: Revised and Expanded Edition}}.
+\newblock New York, New York: {Basic Books}, 2nd edition~ed., Nov. 2013.
 
-\bibitem{cross2011design}
+\bibitem{crossDesignThinkingUnderstanding2011a}
 N.~Cross, {\em Design Thinking: {{Understanding}} How Designers Think and
   Work}.
 \newblock {Berg}, 2011.
@@ -77,10 +75,25 @@ K.~Beck, M.~Beedle, A.~Van~Bennekum, A.~Cockburn, W.~Cunningham, M.~Fowler,
   J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, and {others}, ``Manifesto
   for agile software development,'' 2001.
 
+\bibitem{hatchuel2003new}
+A.~Hatchuel and B.~Weil, ``A new approach of innovative {{Design}}: An
+  introduction to {{CK}} theory.,'' in {\em {{DS}} 31: {{Proceedings}} of
+  {{ICED}} 03, the 14th {{International Conference}} on {{Engineering Design}},
+  {{Stockholm}}}, 2003.
+
 \bibitem{hatchuel2004ck}
 A.~Hatchuel, P.~Le~Masson, B.~Weil, and {others}, ``{{CK}} theory in practice:
   Lessons from industrial applications,'' in {\em {{DS}} 32: {{Proceedings}} of
   {{DESIGN}} 2004, the 8th {{International Design Conference}}, {{Dubrovnik}},
   {{Croatia}}}, pp.~245--258, 2004.
+
+\bibitem{brownChangeDesignHow2009}
+T.~Brown, {\em {Change by Design: How Design Thinking Transforms Organizations
+  and Inspires Innovation}}.
+\newblock New York: {HarperBusiness}, Sept. 2009.
+
+\bibitem{kolkoDesignThinkingComes2015}
+J.~Kolko, ``Design thinking comes of age,'' {\em Harvard Business Review},
+  pp.~66--71, Sept. 2015.
 
 \end{thebibliography}
