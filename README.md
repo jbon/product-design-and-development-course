@@ -1,10 +1,10 @@
 ### Contents
 
 This repository contains the scripts of my lectures within the module *Product Design And Development* (Master of Engineering *Integrated Design and Engineering*) at University of Bath. This is work in progress and I will add lectures gradually. For now, available contents are:
- * Lecture 08. [Sustainability and Eco-design](08. Sustainability and eco-design/Script8.pdf).
- * Lecture 09. [System thinking (in progress)](09. System thinking/Script9.pdf)
- * Lecture 10. [Design theory](10. Design theory/Script10.pdf).
- * Lecture 11. [Future trends in NPD](11. Future of NPD/Script11.pdf). 
+ * Lecture 08. [Sustainability and Eco-design](08.%20Sustainability%20and%20eco-design/Script8.pdf).
+ * Lecture 09. [System thinking (in progress)](09.%20System%20thinking/Script9.pdf)
+ * Lecture 10. [Design theory](10.%20Design%20theory/Script10.pdf).
+ * Lecture 11. [Future trends in NPD](11.%20Future%20of%20NPD/Script11.pdf). 
 
 
 ### Legend
