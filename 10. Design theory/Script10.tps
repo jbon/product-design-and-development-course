@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Script10.tex
 
 [Frame0_View0,0]
-TopLine=15
-Cursor=1283
+TopLine=154
+Cursor=1409
 
 [SessionInfo]
 FrameCount=1

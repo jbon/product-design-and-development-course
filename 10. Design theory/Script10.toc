@@ -3,9 +3,9 @@
 \contentsline {paragraph}{Intellectual.}{2}{section*.2}
 \contentsline {paragraph}{Teleological.}{3}{section*.3}
 \contentsline {paragraph}{Universal.}{3}{section*.4}
-\contentsline {paragraph}{Tricky.}{3}{section*.5}
+\contentsline {paragraph}{Tricky.}{4}{section*.5}
 \contentsline {section}{\numberline {3}Design as problem solving}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Design by analogy}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Design by analogy}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Practical implications}{5}{subsection.3.2}
 \contentsline {section}{\numberline {4}Design as exploration}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}Co-evolution of problem and solution spaces}{7}{subsection.4.1}

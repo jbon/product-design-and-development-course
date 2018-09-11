@@ -9,7 +9,7 @@ This repository contains the scripts corresponding to my lectures in the module 
 
 ### Legend
 In each script, there are:
-- emphasised expressions followed by an asterisk (e.g. "*sustainability* *"): these are important concepts which are defined later in the lecture. This format is used the first time the expression appears and in the "take-aways".
+- emphasised expressions followed by an asterisk (e.g. "*sustainability* *"): these are important concepts which are defined later in the lecture. This format is used the first time the expression appears and in the "take-aways". These important keywords are listed as keywords behind the abstract of the lecture. 
 - references to slides (e.g. "[Slide 12]" written in blue). Slides are not provided in this repository for the moment (as long as I haven't checked the copyrights).
 - take-aways at the end of each section, summarizing in short simplified sentences the content of the section.
 

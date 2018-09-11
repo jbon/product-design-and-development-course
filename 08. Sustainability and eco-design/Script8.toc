@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3}Eco-design}{11}{section.3}
 \contentsline {subsection}{\numberline {3.1}Setting up objectives}{11}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Motivations for eco-design}{11}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Where to search for help to define eco-design objectives?}{12}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}Where to search for help to define eco-design objectives?}{13}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}Assessing the initial situation}{14}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Life Cycle Assessment (LCA)}{14}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}MECO matrix}{15}{subsubsection.3.2.2}
@@ -20,7 +20,7 @@
 \contentsline {subsubsection}{\numberline {3.3.1}DfE guidelines}{16}{subsubsection.3.3.1}
 \contentsline {paragraph}{Design for multiple life cycles.}{17}{section*.2}
 \contentsline {paragraph}{Design for energy efficiency.}{19}{section*.3}
-\contentsline {subsubsection}{\numberline {3.3.2}Eco-ideation mechanisms}{19}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2}Eco-ideation mechanisms}{20}{subsubsection.3.3.2}
 \contentsline {section}{\numberline {4}Outlook: beyond eco-design}{20}{section.4}
 \contentsline {paragraph}{Social impacts and S-LCA.}{20}{section*.4}
 \contentsline {paragraph}{Charitable design.}{21}{section*.5}
