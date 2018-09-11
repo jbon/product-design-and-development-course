@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  11 SEP 2018 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  11 SEP 2018 11:05
 entering extended mode
 **./Script8.tex
 (Script8.tex
@@ -671,34 +671,43 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
+("C:\Users\jb2971\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed.sty
+"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip47
+\fb@frw=\dimen107
+\fb@frh=\dimen108
+\FrameRule=\dimen109
+\FrameSep=\dimen110
+)
 \c@slide=\count97
 \c@exercise=\count98
  (Script8.aux)
 \openout1 = `Script8.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
 
 ("C:\Users\jb2971\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 ("C:\Users\jb2971\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -710,9 +719,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count99
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
  (Script8.out) (Script8.out)
 \@outlinefile=\write4
 \openout4 = `Script8.out'.
@@ -722,23 +731,23 @@ LaTeX Info: Redefining \nameref on input line 25.
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
-\scratchdimen=\dimen107
+\scratchdimen=\dimen111
 \scratchbox=\box27
 \nofMPsegments=\count101
 \nofMParguments=\count102
 \everyMPshowfont=\toks17
 \MPscratchCnt=\count103
-\MPscratchDim=\dimen108
+\MPscratchDim=\dimen112
 \MPnumerator=\count104
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks18
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 34.
+(Font)              <12> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <6> on input line 35.
  (Script8.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
@@ -752,58 +761,64 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2] [3] [4] [5] [6] [7] Excluding 'comment' comment. [8] [9] [10]
 Excluding 'comment' comment.
-Overfull \hbox (4.61165pt too wide) in paragraph at lines 199--200
+Overfull \hbox (4.61165pt too wide) in paragraph at lines 200--201
 []\OT1/cmr/m/n/10 Nonetheless, like any other de-sign pa-ram-e-ter, eco-efficie
 ncy can be ap-proached
  []
 
 
-Overfull \hbox (4.33282pt too wide) in paragraph at lines 218--219
+Overfull \hbox (4.33282pt too wide) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 ``ErP'' (Energy-related Prod-ucts), also known as the []``Eu-ro
 -pean ecode-
  []
 
 [11] [12] [13] Excluding 'comment' comment. [14] [15]
-Excluding 'comment' comment. [16] [17] [18] [19] Excluding 'comment' comment.
-[20] [21] (Script8.bbl [22] [23])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+Excluding 'comment' comment. [16] [17] [18] Excluding 'comment' comment.
+[19] [20] (Script8.bbl [21] [22] [23])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
  [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
  (Script8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
 Package rerunfilecheck Info: File `Script8.out' has not changed.
 (rerunfilecheck)             Checksum: F4D17A7C515D4FD0B4DB74B9C7772B75;1810.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
  ) 
 Here is how much of TeX's memory you used:
- 6317 strings out of 493305
- 93269 string characters out of 3129367
- 176751 words of memory out of 3000000
- 9728 multiletter control sequences out of 15000+200000
- 9905 words of font info for 34 fonts, out of 3000000 for 9000
+ 6375 strings out of 493305
+ 94092 string characters out of 3129367
+ 178165 words of memory out of 3000000
+ 9777 multiletter control sequences out of 15000+200000
+ 10551 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,35p,1977b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,8n,35p,1977b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\tcti1000.pk> <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\tcrm1000.pk><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jb2971/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jb2971/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/jb29
-71/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jb2971/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jb2971/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jb2971/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Us
-ers/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti9.pfb>
-Output written on Script8.pdf (24 pages, 303349 bytes).
+\tcrm0800.pk> <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\tcti1000.pk> <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\tcrm1000.pk><C:/Users/jb2971/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jb2971/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jb2971
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
+/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx9.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jb2971/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jb2971/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jb2971/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
+ers/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr9.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Script8.pdf (24 pages, 314393 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

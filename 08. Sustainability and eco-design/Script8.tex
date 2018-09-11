@@ -11,6 +11,7 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{comment}
 \usepackage{textcomp}
+\usepackage{framed}
 
 \newcounter{slide}
 \newcounter{exercise}
@@ -322,26 +323,30 @@ This approach is particularly relevant for products whose major environmental im
 \end{enumerate}
 These recovery methods are presented in the order of increasing additional impact/entropy and decreasing preservation of the value added {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} \cite{mihelcicSustainabilityScienceEngineering2003}. Recycling amounts to destructing the geometrical shape of a product and turning it to another half-finished product (e.g. plastic pellets). Both the destruction of the value added by forming processes and the application of a new forming process create impacts. Recycling only makes sense when these additional impacts are lower than those of forming products out of virgin material. Remanufacturing intends to use parts \emph{as is}: it keeps the value added in the part geometry. Therefore, it potentially leads to lower impacts and should be preferred to recycling. Upcycling potentially leads to even lower processing and should be preferred to remanufacturing. However, upcycling implementation at industrial scale is impeded by the difficulty of finding stable and localised waste flows {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
 
-Here are some examples of design for remanufacturing guidelines:
-\emph{
+The following two boxes give some examples of design for remanufacturing and design for recycling guidelines. More can be found in Go \emph{et al.} \cite{goMultipleGenerationLifecycles2015a}.
+
+\begin{framed}
+\footnotesize
+\paragraph{Examples of Design for Remanufacturing guidelines}
 \begin{itemize}
 	\item Modularize the product to group parts depending on their own life cycle. 
 	\begin{itemize}
 		\item Group parts per amount of value added. Group low value parts together and high value parts together. This will reduce the number of required processes to dismantle high value parts. 
-		\item Localize wear functions on easily detachable parts {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. This will reduce the volume of material which will need replacement in the remanufacturing process.
+		\item Localize wear functions on easily detachable parts {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. This reduces the volume of material needing replacement in the remanufacturing process.
 		\item Make the most valuable parts or fragile parts appear first in the disassembly sequence to reduce the required disassembly time {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
 	\end{itemize}
 	\item Make the disassembly process easier. Reduce the level of intervention required to extract the parts to be reintroduced in the production process.
 	\begin{itemize}
-    \item Use easily reversible joinings. For example, prefer nuts and bolts to snap fits.
+    \item Use easily reversible joinings. Prefer nuts and bolts to snap fits.
 		\item Reduce the variety of joining techniques. The higher the number of different joining techniques, the higher the number of different disassembly processes is required, the more expensive disassmbly is. 
-		\item Reduce the variety of directions of the joining techniques. Making the entry point for disassembly on one unique side of the product avoids the need to turn the product in the disassembly process and reduces the disassembly time
+		\item Reduce the variety of directions of the joining techniques. Placing all entry points for disassembly on one side of the product avoids turning the product during the disassembly process and reduces the disassembly time.
 	\end{itemize}
 \end{itemize}
-}
+\end{framed}
 
-Here are some examples of design for recycling guidelines:
-\emph{
+\begin{framed} 
+\footnotesize
+\paragraph{Examples of Design for Recycling guidelines}
 \begin{itemize}
 	\item Choose materials which can be recycled. There is not necessarily a recycling process available for each material. Composite materials for example are difficult to recycle because there is no inexpensive way of either separating the constituents of the composites or reshaping composites for another usage. 
 	\begin{itemize}
@@ -355,25 +360,24 @@ Here are some examples of design for recycling guidelines:
 	\end{itemize}
 	\item Avoid the use of incompatible materials, i.e. materials that disturbs the recycling process of another material {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
 \end{itemize}
-}
-
-More design for remanufacturing and design for recycling guidelines can be found in this article: Go, T. F., D. A. Wahab, and H. Hishamuddin. ``Multiple Generation Life-Cycles for Product Sustainability: The Way Forward.'' \emph{Journal of Cleaner Production}, 95 (May 15, 2015): 16–29 \cite{goMultipleGenerationLifecycles2015a}.
+\end{framed}
 
 \paragraph{Design for energy efficiency.}
 \label{sec:DfEE}
-Design for energy efficiency is relevant for products whose major environmental impacts are generated through energy consumption in the use phase. The energy efficiency of industrial products depends on three factors: the theoretical minimum required to deliver the function, the intrinsic losses of the product and the user-induced losses \cite{eliasUserefficientDesignReducing2011} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. While the physical minimum energy to perform a given work cannot be changed, the volume of work maybe something that can be worked on. Let's take the example of using a kettle to make tea {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Most kettles are designed to shut off once water boils. However, most teas require the water to be between 70 and 85 \textdegree C. Reducing the target temperature reduces the amount of work to be delivered by the kettle and increases the energy efficiency. User-induced losses can be addressed as well in this example: how often do you heat exactly as much water as you need? Often, users would tend to boil too much water to be sure they have enough. Giving the user the possibility to measure the exact amount of water they need can avoid energy losses.
+Design for energy efficiency is relevant for products whose major environmental impacts are generated through energy consumption in the use phase. The energy efficiency of industrial products depends on three factors: the theoretical minimum required to deliver the function, the intrinsic losses of the product and the user-induced losses \cite{eliasUserefficientDesignReducing2011} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. While the physical minimum energy to perform a given work cannot be changed, the volume of work maybe something that can be worked on. Let's take the example of using a kettle to make tea {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Most kettles are designed to shut off once water boils. However, most teas require the water to be between 70 and 85 \textdegree C. Reducing the target temperature reduces the amount of work to be delivered by the kettle and increases the energy efficiency. User-induced losses can be addressed as well in this example: how often do you heat exactly as much water as you need? Often, users would tend to boil too much water to be sure they have enough. Giving the user the possibility to measure the exact amount of water they need can avoid energy losses. The following box provides some examples of design for energy efficiency guidelines. More design for energy efficiency can be found in Telenko \emph{et al.} \cite{telenkoCompilationDesignEnvironment2016a} as well as Bonvoisin \emph{et al.} \cite{bonvoisin2010design}.
 
-Here are some examples of design for energy efficiency guidelines:
-\emph{
+\begin{framed} 
+\footnotesize
+\paragraph{Examples of Design for Energy Efficiency guidelines}
 \begin{itemize}
   \item In cases the amount of functionality wished by the user is variable, provide automatic or manual tuning capabilities so the product does not provide more than expected.
 	\item Provide user with feedback on the current state of the process and eventually on how much resource is being consumed. This will allow them to adapt their demand. 
 	\item Provide discrete quantities of resources to avoid over-use. 
 	\item Schedule an automatic power down.
 \end{itemize}
-}
+\end{framed}
 
-More design for energy efficiency can be found here : \cite{telenkoCompilationDesignEnvironment2016a, bonvoisin2010design}.
+
 
 % end of subsection - time for take aways and exercise
 {\color{PineGreen}

@@ -19,9 +19,12 @@
 \contentsline {subsection}{\numberline {3.3}Looking for solutions}{16}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}DfE guidelines}{16}{subsubsection.3.3.1}
 \contentsline {paragraph}{Design for multiple life cycles.}{17}{section*.2}
-\contentsline {paragraph}{Design for energy efficiency.}{19}{section*.3}
-\contentsline {subsubsection}{\numberline {3.3.2}Eco-ideation mechanisms}{20}{subsubsection.3.3.2}
+\contentsline {paragraph}{Examples of Design for Remanufacturing guidelines}{18}{section*.3}
+\contentsline {paragraph}{Examples of Design for Recycling guidelines}{18}{section*.4}
+\contentsline {paragraph}{Design for energy efficiency.}{19}{section*.5}
+\contentsline {paragraph}{Examples of Design for Energy Efficiency guidelines}{19}{section*.6}
+\contentsline {subsubsection}{\numberline {3.3.2}Eco-ideation mechanisms}{19}{subsubsection.3.3.2}
 \contentsline {section}{\numberline {4}Outlook: beyond eco-design}{20}{section.4}
-\contentsline {paragraph}{Social impacts and S-LCA.}{21}{section*.4}
-\contentsline {paragraph}{Charitable design.}{21}{section*.5}
-\contentsline {section}{\numberline {5}Exercise}{22}{section.5}
+\contentsline {paragraph}{Social impacts and S-LCA.}{20}{section*.7}
+\contentsline {paragraph}{Charitable design.}{21}{section*.8}
+\contentsline {section}{\numberline {5}Exercise}{21}{section.5}
