@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  11 SEP 2018 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  16 NOV 2018 14:33
 entering extended mode
 **./Script8.tex
 (Script8.tex
@@ -762,21 +762,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2] [3] [4] [5] [6] [7] Excluding 'comment' comment. [8] [9] [10]
 Excluding 'comment' comment. [11] [12] [13] Excluding 'comment' comment.
 [14] [15] Excluding 'comment' comment. [16] [17] [18]
-Excluding 'comment' comment. [19] [20] (Script8.bbl [21] [22] [23])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+Excluding 'comment' comment. [19] [20] [21] (Script8.bbl [22] [23])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 452.
  [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 452.
 
 (Script8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 452.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 452.
 Package rerunfilecheck Info: File `Script8.out' has not changed.
 (rerunfilecheck)             Checksum: F4D17A7C515D4FD0B4DB74B9C7772B75;1810.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 452.
  ) 
 Here is how much of TeX's memory you used:
- 6375 strings out of 493305
- 94092 string characters out of 3129367
+ 6381 strings out of 493305
+ 94132 string characters out of 3129367
  178165 words of memory out of 3000000
  9777 multiletter control sequences out of 15000+200000
  10551 words of font info for 36 fonts, out of 3000000 for 9000
@@ -801,9 +805,9 @@ ers/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 fonts/cm/cmr9.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Script8.pdf (24 pages, 315032 bytes).
+Output written on Script8.pdf (24 pages, 317718 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
+ 466 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
