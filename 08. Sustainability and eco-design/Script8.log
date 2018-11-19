@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  16 NOV 2018 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  19 NOV 2018 11:24
 entering extended mode
 **./Script8.tex
 (Script8.tex
@@ -772,10 +772,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 452.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 452.
 Package rerunfilecheck Info: File `Script8.out' has not changed.
 (rerunfilecheck)             Checksum: F4D17A7C515D4FD0B4DB74B9C7772B75;1810.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 452.
  ) 
 Here is how much of TeX's memory you used:
@@ -805,7 +801,7 @@ ers/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 fonts/cm/cmr9.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Script8.pdf (24 pages, 317718 bytes).
+Output written on Script8.pdf (24 pages, 317544 bytes).
 PDF statistics:
  466 PDF objects out of 1000 (max. 8388607)
  102 named destinations out of 1000 (max. 500000)
