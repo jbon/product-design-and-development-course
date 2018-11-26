@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Script9.tex
 
 [Frame0_View0,0]
-TopLine=198
-Cursor=15987
+TopLine=193
+Cursor=24205
 
 [SessionInfo]
 FrameCount=1

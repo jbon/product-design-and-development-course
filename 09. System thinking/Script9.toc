@@ -9,4 +9,3 @@
 \contentsline {paragraph}{Grenoble's M\IeC {\'e}troV\IeC {\'e}lo.}{6}{section*.4}
 \contentsline {subsection}{\numberline {2.2}Definition and typology}{7}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Advantages}{7}{subsection.2.3}
-\contentsline {section}{\numberline {3}From system thinking to systems engineering}{8}{section.3}
