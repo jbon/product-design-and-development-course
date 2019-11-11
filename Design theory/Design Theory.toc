@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Disclaimer}{1}{section.1}
+\contentsline {section}{\numberline {2}Design: a confusing concept}{2}{section.2}
+\contentsline {section}{\numberline {3}Let's start with a story}{3}{section.3}
+\contentsline {section}{\numberline {4}Design addresses ``wicked problems''}{3}{section.4}
+\contentsline {section}{\numberline {5}Three visions on design}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Design is case-based reasoning}{5}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Design as co-evolution}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Design is a learning process}{8}{subsection.5.3}
+\contentsline {section}{\numberline {6}Outlook - On designer's skills}{10}{section.6}

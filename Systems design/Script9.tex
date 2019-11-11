@@ -1,0 +1,170 @@
+\documentclass{article}
+
+% style elements
+% Slide numbers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+% Key readings \textsuperscript{\color{Magenta}[key reading]}
+
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment}
+\usepackage{textcomp}
+
+\newcounter{slide}
+\newcounter{exercise}
+
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+\begin{document}
+
+
+\title{Systems Design - Part I}
+
+\author{Product Design and Development (ME30294) \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
+\date{Last update: \today}
+
+\maketitle
+
+\begin{abstract}
+This lecture discusses the potential of adopting a system approach to design and introduces methods to design complex systems. The first part of the lecture delivered by Jérémy illustrates the potential of adopting such an approach based on examples of eco-efficient design. It introduces the concept of Product Service Systems (PSS) as a design paradigm applying a systems approach to eco-efficiency. The second part of the lecture delivered by Elies introduces models, methods and tools for dealing with systems in product design and development. In other words, while Part I illustrates the \emph{why} of systems design, Part II gives some input about the \emph{how}.
+\end{abstract}
+
+\tableofcontents
+
+~\\
+This part of the lecture illustrates the topic of systems design by using examples from eco-design. The first section of this document illustrates how root causes of environmental impacts are located at the interfaces between the product and its surrounding environment. The second section introduces the concept of Product Service System (PSS), a design approach focusing on the systems surrounding products in order to challenge these interfaces and to harvest higher performance potential. 
+
+\section{From product design to system design}
+\label{sec:FromIncrementalDesignToRethinkingSystems}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In the following, we illustrate the innovation potential of thinking beyond product design and challenging the systems in which products are embedded. We first introduce a model defining four levels of innovation illustrating that widening the scope of reflection helps reaching higher performance. We then show this principle in action through two concrete examples: 1) the redesign of a smart metering system and 2) the historical evolution of environmental protection in industry. We conclude this introduction by defining a design approach we term \emph{design thinking}.
+
+\subsection{4 Levels of innovation}
+\label{sec:fourlevels}
+In the late 90's, Han Brezet, a pioneering scholar in the field of sustainable product design, proposed a 4-layer model to classify the ambition of eco-design approaches. According to this model, the extent to which a product redesign may outperform existing products depends on a scope of reflection that can be roughly classified within four rough categories {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}\cite{bhamraEcodesignSearchNew2004, brezet1997dynamics}:
+\begin{itemize}
+	\item \emph{Product improvement.} The product architecture remains the same while a specific parameters is improved. For example, the application of a topological optimization on a mechanical part allows reducing its weight without compromising any other product parameters (e.g. mechanical load capacity).
+	\item \emph{Product redesign.} The product concept remains the same while the product architecture changes. Some parts are removed, inserted or replaced to implement a given functionality in an alternative way. For example, the combination of glued blister and cardboard in packaging can be replaced by stamped and folded cardboard: holes and folds provide the same packaging function (hold and show the product) than the blister. 
+	\item \emph{Function innovation.} The reason to be of the product remains the same but the product concept may change. For example, in a bathroom, the functions `flushing' and `washing' hands can be combined into a single product sharing a common water flow. These functions remain fulfilled by the combined product whereas they were originally fulfilled by two distinct products.
+	\item \emph{System innovation.} At this ultimate level, even the reason to be of the product is challenged. For example, car sharing offers are based on the assumption that what people need is not to have a car but to be transported. Transportation is provided by a combination of material and immaterial products and services (cars, booking apps, preventive maintenance).
+\end{itemize}
+
+The message conveyed by this model originally focusing on eco-efficiency applies for any product performance criteria (e.g. cost, safety). This message is: the larger the boundaries of the system under consideration, the higher the reachable performance. The four layers are sorted in the order of increasing influence of the factors they challenge (namely: parameter, architecture, product concept, product's reason to be). Some factors are more influential than others because they appear earlier in the causal chain: the range of possible product parameters is set by the product architecture; the architecture implements a given functionality, which in turn only makes sense in a given system, which in turn is to be considered in the context of a supersystem \emph{etc} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The earlier the factor in the causal chain is, the most influencing it is, the larger the room for performance improvement is given while challenging it. But also: the most influencing a factor is, the higher the number of processes are affected while challenging it, and the more resistance there is in changing it. Challenging factors lying earlier in the causal chain amounts to widen the boundaries of the considered system, to challenge the constraints given by its surrounding environment. The two following subsections illustrate this idea trough two examples. 
+
+\subsection{Example 1: improvement of a smart metering system}
+\label{sec:smartcity}
+The advantage of focusing on systems rather on individual products is also exemplified by a case I was personally involved in: the redesign of a urban waste collection optimization service based on wireless sensor networks {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} \cite{bonvoisinAnalyseEnvironnementaleEcoconception2012}. The functionality of the service is to monitor the level of public waste containers so garbage collectors can avoid driving to containers which do not need emptying, hence shortening collection rounds and saving time and resources. Each public waste container is provided with a sensor measuring the waste level. This information is transmitted via wireless connection by a network of repeaters to a central server. Each day, the system defines the optimal route for the collection trucks who only need to collect the bins which are about to overflow. By using this system, waste collectors can save up to 30\% fuel consumption and reduce their influence on urban noise and traffic congestion. 
+
+A life cycle assessment of the smart metering system showed that while their implementation helps avoiding specific environmental impacts, it also leads to impact transfers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The savings made in fuel consumption and traffic congestion enable environmental impact savings on most environmental indicators, but not for all of them. For two environmental indicators (raw material depletion and hazardous waste production), the environmental impacts of the smart metering system outperform the savings. 
+
+I was involved in the redesign of the smart metering system in order to mitigate the impact transfers. Here are three recommendations for redesign we tested {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}:
+\begin{enumerate}
+	\item The first option challenges the design of individual components of the system (the sensors). The electronics of the sensors are embedded in a IP67 casing and flooded into a solid resin to avoid disturbance from dust or water. The resin makes the most weight of the product, creates a significant share of the components' environmental impacts and makes recycling impossible. An idea was to improve the IP67 casing so that using resin could be avoided.
+	\item The second option challenges the architecture of the system it self (the wireless sensor network). One of the major factors of components' energy consumption is due to the fact that the wireless modules may be too sensible and be awaken by conversations they are not supposed to be part of. An idea was that wireless module deliberately reduce their sensibility so they just hear the communications of their immediate neighbors. 
+	\item The third option challenges the function which is fulfilled by the system (which information is delivered). The sensors sense and send the status of each bin every hour and provide an overview of the bin pool in almost real time all day long. However, the information which is really required by the client once a day is ``which of the bins will overflow between now and tomorrow''. By making the sensors waking up and sensing the level of waste at only when really needed, it is possible to reduce communications in the network by 90\% without reducing prediction accuracy {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
+\end{enumerate}
+The environmental impacts of the system implementing these options has been computed using life cycle assessment (LCA) {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The results are: option 3 leads to higher impact reduction than option 2, and option 2 more than option 1. Challenging the function is better than challenging the architecture of the system, and changing the architecture of the system leads to better results than changing the architecture of individual system components. 
+
+\subsection{Example 2: history of environmental management}
+\label{sec:endofpipe}
+The potential of challenging factors lying earlier in the causal chain is also illustrated by the historical evolution of environmental preservation in industry which gradually moved from corrective to preventive action. Early environmental regulations applying to industries in the 19th century concerned the emissions of harmful substances by factories. Increased social pressure required factories to \emph{capture} pollutions: e.g. using retention trays to avoid to spill out chemicals, filtering out harmful substances emitted by combustion processes. In the second half of the 20th century, the increased competitiveness of markets, instability of resource prices (e.g. oil crisis) and public awareness of environmental issues, created incentives for companies not only to capture pollutions but to \emph{reduce} them. This lead to the development of cleaner production methods (e.g. lean manufacturing) and technologies (e.g. High pressure jet assisted machining \cite{pusavecTransitioningSustainableProduction2010} minimum quantity lubrication in machining \cite{lawalCriticalAssessmentLubrication2013}). The more recent and comprehensive awareness about sustainability acknowledged the role of the product in limiting the potential of cleaner production methods and in creating impacts outside the factory walls. This role is tackled by eco-design as we saw in the last lecture. 
+
+In summary, environmental preservation in industry first looked at pipes outgoing the factory walls. Faced with the limitations of this approach, it raised the question ``why is there something going from these pipes?''. This lead to consider the whole system within the factory walls as the scope of environmental impact reduction efforts. Faced with the limitations of this approaches, it raised the question ``why do we need to do what we do in a factory''. This lead to consider the whole product life cycle as the scope of environmental impact reduction efforts. Environmental protection first focused on capturing pollutions, then questioned why processes inside the factory created pollution, to finally question why there is a need for those processes. It progressively traced back the causal chains and widened the boundaries of the system to target always higher eco-efficiency. 
+
+\subsection{System thinking}
+\label{sec:systemthinking}
+
+Together with Brezet's 4-level models, these two examples relate to one of the first concepts we introduced in the course: the concept of \emph{wicked problem} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. We saw with Rittel and Webber (1973)\cite{rittelDilemmasGeneralTheory1973} that wicked problems have specific properties delineating them from mathematical problems. For example, they are ill-defined and they have no stopping rule. We discussed the consequences of some of these properties for design. One of the properties we \emph{haven't} discuss is that ``every wicked problem can be considered to be a symptom of another problem''\cite{rittelDilemmasGeneralTheory1973}. A wicked problem appears only because there is a higher level wicked problem setting the scene for this problem. This higher level problem sets the constraints for the current problem, and if we solve the higher level problem, chances are high that the current problem vanishes \textsc{and} that the solution would be more satisfying as a whole. Rittel and Webber (1973)\cite{rittelDilemmasGeneralTheory1973} illustrate this on the example of ``crime in the street'', telling us we could consider crime ``as a symptom of general moral decay, or permissiveness, or deficient opportunity, or wealth, or poverty, or whatever causal explanation you happen to
+like best''. Closer to design considerations, we could take as example a part that is complicated to mill due to intricated geometry. This intricated geometry is the result of constraints applying to the part that potentially could be rethought. 
+
+This also relates to one of the three fundamental competences of good design practice identified by Nigel Cross also discussed in the first lecture {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}\cite[reformulated by Elies Dekonkinck]{crossDesignThinkingUnderstanding2011}: ``Taking a broad systems approach to the problem. Going beyond the part or object to be designed, designing the system around it as well, or at least understanding the whole system context in depth''. This statement implies that the picture delivered by the design brief is not only incomplete: it is also a point of view, where some objects are masked behind other objects. The deeper the exploration process goes, the deeper the understanding a designer gets, the broader the considered system is, the larger the chances are that the fundamental aspects of the problem are covered, and the more optimal the design can become.  
+
+All this boils down into what we choose to name here \emph{systems thinking}, \emph{i.e.} the readiness to challenge constraints and to widen the scope of reflection around a design problem, the readiness to ask \emph{why} constraints are what they are {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} and whether they \emph{really} need to be like they are. The question \emph{why} is one of the most powerful tools of design: it reveals the structure of a system, it unlocks new possibilities for higher performance designs.
+
+% end of section - time for take aways and exercise
+{\color{PineGreen}
+\setlength{\parskip}{1em}
+{\emph{Take-aways of this section:
+\setlength{\parskip}{0em}
+\begin{itemize}
+  \item The earlier in the causal chain a challenged factor lies, the higher the innovation potential.
+	\item Challenging the brief and the design constraints is a powerful tool of innovative design. 
+	\item Challenging influencing factors requires switching from a product perspective to a system perspective.
+\end{itemize}
+}}
+
+%\setlength{\parskip}{1em}
+%\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 3, around a sufficiently large paper sheet, use the 5 why technique to identify the factors limiting the eco-efficiency of a car in today's transportation settings.}
+%\setlength{\parskip}{0em}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{From products to Product Service Systems (PSS)}
+\label{sec:pss}
+The potential of challenging the systems in which products are embedded is exemplified by the case of a power drill. A consumer power drill is used in average 12 to 15 minutes in its entire use phase {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+\footnote{I could not find any reliable source of this information, so please take it as an indicator of order of magnitude. This figure is has been cited \href{https://www.ted.com/talks/rachel_botsman_the_case_for_collaborative_consumption?language=en}{in this TedTalk}, \href{https://tedxinnovations.ted.com/2015/04/16/spotlight-tedx-talk-how-much-do-you-use-that-power-drill-why-were-sharing-tools-with-everyone-in-our-city/}{this other one} and \href{https://www.fastcompany.com/3050775/the-sharing-economy-is-dead-and-we-killed-it}{this newspaper article}}\textsuperscript{,}\footnote{Drills are not the only examples of products either with unexploited units of services. We already mentioned in the last lecture the case of cell phones: their average service time is around 18 month [reference], after which most of them are still functional but waiting in a drawer for a further use which will never come \cite{hanson2014s}. It is also striking that cars used only 5\% of their time \cite{meijkampChangingConsumerBehaviour1999}.}.
+Now what a typical R\&D department would do with this information would be to say: ``ok, so let's design this product so it \emph{actually and predictably} lasts 15 minutes. If the drill can work longer than actually used, it is overengineered, it is suboptimal, it creates more environmental impact as it should be''. So they would downsize the components to make the drill cheaper until the predicted lifetime reaches 15 minutes. This perfectly understandable logic is what contemporary critics call \href{https://en.wikipedia.org/wiki/Planned_obsolescence}{planed-obsolescence} and the business world calls \href{https://en.wikipedia.org/wiki/Design-to-cost}{design to cost}. And you could call this eco-design as well, because they eventually increased the ratio between use and environmental impacts.
+
+But the picture does not looks right, does it? It is great that the marginal environmental impact (and cost) of a drill got reduced. But it looks like we got closer to something we could call a ``disposable drill'', on the example of a disposable razor: something you use a few times and throw away. This may be great from an economical perspective, but does not sound great from an environmental point of view.
+
+Another approach the R\&D department could have adopted would have been to question what is what the customers really want. Do they want \emph{drills}, or do they want the \emph{ability} to drill holes? What if owning a drill was just a side aspect of being able to drill a hole? What if the real value a business would be to deliver products to their customers \emph{when they need them} rather than selling products? {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+ 
+This is the logic adopted by \emph{Product-Service-Systems (PSS)}* for which products are conveyors of services which are what customers really want: ``the main economic value of products does not originate in the mere existence of the product, but relates to its ability to deliver functionality or services to consumers over a certain period of time'' \cite{tukkerEightTypesProduct2004} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. PSS define eco-efficiency as the ratio between the available stock of products and the number of units of services they actually deliver \cite{meijkampChangingConsumerBehaviour1999}. Doing this, they not only challenge products but also consumption patterns. The underlying assumption is that less products yielding a high number of units of services are better than more products yielding a low number of units of service. 
+
+\subsection{Examples}
+\label{sec:pssExamples}
+
+\paragraph{Electrolux pay per wash.}\label{Electrolux}
+Electrolux launched in 1999 a pilot programme offering ``free washing machines'' to households subscribing to a ``pay per wash'' billing contract \href{https://www.electroluxgroup.com/en/electrolux-offers-7000-households-free-washing-machines-1885/}{\cite{eletroluxElectroluxOffers0001999}} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The machines are delivered and serviced for free and after 1000 washes, families are given the option to replace or upgrade the machine. Machines are connected with smart energy meters acting as a wash counter and allowing Electrolux to bill households per unit of actual machine usage. The logic behind this offer was to switch to a revenue model based on sold machines to a revenue model based on delivering `clean clothes'. The justification used by electrolux is also environmental: ``according to research conducted by Electrolux, families with pay per wash plan their laundry more effectively.'' While this program remained experimental, the Dutch company \href{https://www.homiepayperuse.com/?webpage=13}{Homie} seems to have made the step between experimentation and business operation {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}.
+
+\paragraph{Xerox pay per copy.}\label{Xerox}
+Xerox is maybe the oldest and most iconic example of a product service system {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The company leases products ``under a multi-year contract, which guarantees customer satisfaction through functioning machines as a fixed price per copy'' \cite{montProductserviceSystemsPanacea2004}. As part of this billing system, Xerox has been recovering ``used equipment since the 1960s'', which led them to develop a ``remanufacturing system in the late-1980s and early 1990s'' to capture the value of of recovered products \cite{kingPhotocopierRemanufacturingXerox2006}. ``Xerox [processes] old photocopiers to an `as new' product. Through a series of industrial processes in a factory environment, a discarded product is completely disassembled. Usable parts are cleaned, refurbished, and put into inventory. Then the product is reassembled from old parts to produce a unit fully equivalent to the original new product'' \cite{kingPhotocopierRemanufacturingXerox2006}
+
+\paragraph{Grenoble's MétroVélo.}\label{MetroVelo} Métrovélo is an inexpensive rent-a-bike service offered by the city of Grenoble, France. It is delivered by a shared public/private organisation that maintains since 2004 an ever growing pool of more than 3500 bikes that can be rented for a duration spanning from one day to one year. Since its beginning, more than three millions of renting days have been registered, meaning that the well recognizable yellow bikes are now a part of the local culture (figures from 2013 \cite{bonvoisinOpennessSupportiveParadigm2013}). Users pay for a certain time of access to the product, whatever the number of kilometres they ride. On the contrary to the Electrolux example, this is not a ``pay per use'' but rather a ``pay per access'' billing system. The service includes free maintenance: in case of failure, each customer can come to a Métrovélo agency to have his bike fixed. If a repair cannot be made within a reasonable time frame, the customer is provided with a functional bike waiting in the stock. This billing system creates a natural incentive to reduce maintenance costs. Consequently,  the service provider designed the bicycles to be especially robust. They for example tested switching the transmission from typical chain and crankset to a shaft and bevel gear system {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. This system does not require frequent lubrication and is less likely experience malfunctions. 
+
+\subsection{Definition and typology}
+\label{sec:pssDefinition}
+Product Service Systems are sets of ‘tangible products and intangible services designed and combined so that they jointly are capable of fulfilling specific customer needs’ \cite{tukkerEightTypesProduct2004}. This school of thought considers that the role of design and innovation is not only to improve hardware products, but also to encompass ``changes in the organisation of the consumption process, the input of man power and the nature of the required consumption activities'' \cite{meijkampChangingConsumerBehaviour1999}. Three types of PSS can be distinguished in the range between pure product and pure services {\color{blue}[\stepcounter{slide}Slide \arabic{slide}-\stepcounter{slide}\arabic{slide}]}. \emph{Product-oriented services} are conventional services driven by product sales which are bundled with additional services, such as maintenance, financing, and consultancy. \emph{Use-oriented services} also focus on a product but do not involve exchange of ownership: instead, the revenue is driven by product access. A subcategory of use-oriented service are product leasing/sharing services such as the MétroVélo case. In this type of business model, the product is owned by the provider who remains responsible for the product maintenance. The user pays for accessing the product. \emph{Result-oriented services} are focused on the realisation of a given task; which products are involved is a secondary issue. A subcategory of result-oriented services are those based on the pay per service unit principle, such as Xerox and Electrolux cases. In these services, the use directly buys units of services delivered by a product made available by the provider.
+
+\subsection{Advantages}
+\label{sec:pssAdvantages}
+PSS have great potentials in terms of competitiveness and sustainability, some of which are illustrated by the examples introduced in section \ref{sec:pssExamples}. One advantage is that the whole product life cycle is covered by one single actor. This avoids the responsibility of products impacts being split between stakeholders having conflicting objectives: the producer wants to increase margin but the customer wants to reduce cost, the recycler wants the product to be easy to dismantle but the producer does not care about this, etc. Full servicization amounts to a re-internalisation of all life cycle costs to the producer which bills the user with the \href{https://en.wikipedia.org/wiki/Total_cost_of_ownership}{``total cost of ownership''}, that is, the real price of a product, including the `hidden costs'. The stock of manufactured products becomes a cost factor for the provider where it was a revenue factor in conventional business models. This increases the interest of companies to increase the ratio between the number of billed service units and the number of products or components, that is, to exploit every bit of material they are providing. This creates natural incentives for producers to design robust, reliable, and long lasting products, in order to avoid maintenance and end-of-life processing costs. Since the producer still owns the product, it also needs to take it back at the end of the servicing contract or when the product is dysfunctional. This also amounts to create incentives to reuse discarded products, leading to reuse or re-manufacturing. On the side of the users, paying per use creates incentives to reduce their consumption. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{From system thinking to systems engineering}
+%\label{sec:sysEng}
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{\color{red}
+%\section*{Remaining ideas}
+%the idea is: ask why? What is really needed? challenge the system
+% - radical change vs. end-of-pipe 
+% - functional innovation
+% - pss
+%Through premature discarding
+%Physical lifetime  Value lifetime 
+%Ownership to usership: %https://pdfs.semanticscholar.org/4edb/250d497994b226509fcdd052d7afc5199add.pdf#page=25
+%}
+
+\section*{Credits}
+\label{sec:Credits}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+These works are released under a \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License}. The paragraph about MétroVélo in section \ref{MetroVelo} is largely inspired from \cite{bonvoisinOpennessSupportiveParadigm2013} and partly copies passages of text from this article released under a \href{https://creativecommons.org/licenses/by/3.0/de/deed.en}{CC BY 3.0 DE license}.
+
+\bibliographystyle{ieeetr}
+\bibliography{../References}
+\end{document}

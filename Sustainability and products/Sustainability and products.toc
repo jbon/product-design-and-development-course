@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Prologue: why this lecture?}{2}{section.1}
+\contentsline {section}{\numberline {2}Sustainability? what are we talking about?}{2}{section.2}
+\contentsline {section}{\numberline {3}Environmental impacts}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Resource consumption, depletion and restoration}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Pollution}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Measuring environmental impacts}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}About irreversibility, or why less is better}{6}{subsection.3.4}
+\contentsline {section}{\numberline {4}Eco-efficiency of products}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Product life cycle}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Functional unit}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}The role of design in product eco-efficiency}{10}{subsection.4.3}

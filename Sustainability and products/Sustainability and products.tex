@@ -1,0 +1,208 @@
+\documentclass{article}
+
+% style elements
+% Slide numbers {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}
+% Key readings \textsuperscript{\color{Magenta}[key reading]}
+
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{comment}
+\usepackage{textcomp}
+\usepackage{framed}
+
+\newcounter{slide}
+\newcounter{exercise}
+
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+\begin{document}
+
+\title{Sustainability and products}
+%\subtitle{Course Product Design and Development. Lecture 8.}
+
+\author{Product Design and Development (ME30294) \\ Jérémy Bonvoisin, Dept. Mech. Eng., University of Bath}
+\date{Last update: \today}
+
+\maketitle
+
+\begin{abstract}
+Together with the lecture `Sustainability and Products' next week, this lecture discusses the implications of PDD in terms of environmental sustainability and gives an overview of corresponding mitigation measures. It introduces \emph{eco-design} as a structured approach to improve the eco-efficiency of products---in other words, to improve the ratio between the functionality delivered by a product and the effects it has on the environment. Today, we will set the scene by discussing the general concept of sustainability and will draw the link with PDD by introducing the concepts of \emph{environmental impact}, \emph{product life cycle} and \emph{functional unit}. Next week, we introduce the rationale of eco-design and provide an overview of eco-design strategies. 
+
+{{\it Keywords.} sustainability; environmental impacts; consumption; pollution; resource depletion; product life cycle; functional unit; eco-efficiency; elementary flows.}
+\end{abstract}
+
+\tableofcontents
+
+\section{Prologue: why this lecture?}
+\label{sec:prologue}
+A distinctive characteristic of the typical middle-class family---a model the largest part of the fast growing world population longs for---is an overabundance of possessions, stuff and gadgetry \cite{menzelMaterialWorldGlobal1995}. And a rising overabundance of it: the number of energy using products typically found in a household have more than doubled between 1970 and 2000 \cite{owenRiseMachinesReview2006} and may have continued to rise in the meantime {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. For certain populations (e.g. US and western countries), this evolution even comes to a point where stuff and unused clutter becomes an overwhelming psychological burden for most middle-class families \cite{arnoldChangingAmericanHome2007}. A point where consumption becomes counter-productive.
+
+The global over-consumption of stuff already `overshoots' of the Earth's limited capacity to deliver enough resources and even to deliver a stable living environment \cite{rockstromPlanetaryBoundariesExploring2009} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Neither can the Earth offer enough resources to give everyone access to the current middle-class family model, nor can It do it for the next generations issuing from the people who already access this model \footnote{To hear an interesting opinion about the role of consumption in over-exploitation of Earth's resources, see the excellent video \href{https://www.youtube.com/watch?v=9GorqroigqM&vl=fr}{``The Story of Stuff''}. \textsuperscript{\color{Magenta}[Extra reading]}}. In the ethical debate about resource distribution, the term `sustainability' speaks for the search of a life-style which can be adopted across humanity and perpetuated to next generations. And there is hope sustainability can be reached, because a lot of things we do are just inefficient {\color{blue}[Slides \stepcounter{slide}\arabic{slide}-\stepcounter{slide}\arabic{slide}]}.
+
+This lecture is meant to provide you---as a designer---with an overview of the role and potential of design in contributing to sustainability. 
+
+\section{Sustainability? what are we talking about?}
+\label{sec:sustainability}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+According to the most widely accepted definition, \emph{sustainable development} or \emph{sustainability}* ``is development that meets the needs of the present without compromising the ability of future generations to meet their own needs'' \cite{brundtland1987our}. The ``ability of future generation to meet their own needs'' is generally understood as depending from the preservation of three types of capital: the environmental\footnote{in other words: the `nature', the `natural resources', including living biological stock, usable mineral resources, breathable air and drinkable water, beautiful landscapes, etc.}, social\footnote{in other words: human well-being, happiness, and its constituents being eventually, health, education, equality of chances, freedom, etc.}, and economical capitals\footnote{in other words: money and other forms of marketable assets.}. 
+
+Further efforts to break down this programmatic definition into concrete terms are inevitably bound to political implications and are therefore subject to diverging interpretations. One main topic of disagreement is whether capitals are interchangeable, e.g. whether a certain amount of social capital can be sacrificed for a bit of environmental capital. In the one hand, proponents of the so-called \emph{weak sustainability} consider the three capitals as interchangeable and of equal importance and seeks for a preservation or growth of their total balance. This school of thought tends to consider the environment from an utilitarian point of view. It is 1) the supplier of all the resources we need to satisfy human needs and 2) the repository of all we don't need anymore. Following this idea, the function of natural cycles is to absorb wastes and to turn them into restored resources. Caring about the environment is a matter of ensuring the further fulfillment of human basic needs (e.g. breathe, eat, drink, reproduce) and well-being (to which may contribute things like mediated communication, mechanised transportation, cultural creation, entertainment, comfort, representation). On the other hand, proponents of the so-called \emph{strong sustainability} consider there should be no substitution. This school of thought tends to consider the environment from an idealistic perspective and to speak for nature rights. It assumes that preservation of the social capital is the objective of human activity; those of the economical capital is a mean to achieve it; those of the environmental capital is understood as a condition. Weak sustainability is generally represented as a Venn diagram and strong sustainability as concentric circles {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Adhesion to one or the other school of thought is ultimately a question of \emph{Weltanschauung}, one's world view, their own philosophy.
+
+Without taking position in this debate, we can state that the sustainability of human activities relates to the extent to which they:
+\begin{itemize}
+	\item create social value (they are \emph{useful} to someone). Social value is assumed to be positive and is to be maximized. 
+	\item contributes to environmental degradation (they have \emph{environmental impacts*}). Environmental degradation is assumed to be negative and is to be minimized.
+	\item participate to the creation of economical value added (they can be charged for money). From the point of view of the firm, economical value added is considered as positive and is to be maximized to ensure viability. The weak and strong sustainability disagree on whether economical value added has to be maximized from a macroeconomic point of view.
+\end{itemize}
+
+In the context of this lecture, we consider that caring for sustainability consists in maximising social value and minimising the associated environmental impacts while contributing to economical viability. In the following, we focus on the environmental dimension of sustainability, assuming that the audience has a better understanding of economical and social aspects of sustainability than of environmental aspects.
+
+\section{Environmental impacts}
+\label{sec:EnvironmentalImpacts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Let's approach the concept of environmental impact with a simple analogy: suppose you want---whatever the reason---to dig a hole in your well-grassed garden {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. By doing it, you reduce the available surface to dig another hole in your garden. You consume a specific resource which is the ``area of nicely grassed ground". This resource becomes more scarce than it was before. Digging a hole also inevitably creates a heap somewhere else, further reducing the resource ``area of nicely grassed ground" of an additional amount (the surface of the heap base). 
+
+In this analogy, the hole stands for the \emph{consumption}*, the heap stands for the \emph{pollution}* and both together stand for the \emph{depletion of a resource}* (the garden area). Resource depletion refers to a decrease in the available stock of resources---to the destruction of a bit of what we called earlier the ``environmental capital''. Environmental impact is the marginal contribution of a process to this depletion due to the direct consumption of resources or through the emission substances leading to its pollution. It is the combination of marginal environmental impacts generated by a large amount of diverse activities (like commuting in London) which generates pollution. 
+
+This stated, let's now have a closer look at the kind of resources that can be depleted by consumption and what kind of pollution can contribute to this depletion.
+
+\subsection{Resource consumption, depletion and restoration}
+\label{sec:depletion}
+Consumption either implies the destruction of a resource or its dispersion to an extent which hinders further use. An example of dispersion is the use of precious metals in semiconductors: extracting the ores, refining the metals, embedding them in products and using these products does not obliterate the chemical elements, it just leads to their geographic dispersion which ultimately makes them unavailable for further industrial use. An example of resource destruction is the combustion of oil-based fuels: the resource disappears as it is transformed into something else (CO\textsubscript{2}, among others). Resources ongoing destructive processes may further either be renewable or non-renewable. Those which are renewable can be restored, either through natural cycles (like clean freshwater) or through human intervention (like food). In this case, a depletion in the overall stock happens when the destruction of resources is quicker than the ability of the restoring mechanism to replenish the stock. The destruction of non-renewable resources can neither be restored by natural cycles nor by human intervention. Once a species is extinguished, once nuclear or fossil fuel is burnt, there is no comeback.
+
+Excessive consumption is already or is about to become a critical issue for a large variety of economic sectors {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The remaining reserves of some precious metals like gallium and arsenic (used in semiconductors), indium and silver (used in photovoltaic panels), as well as gold and silver (used in electronic circuits) may be depleted in 5 to 50 years if consumption and disposal continues at present rate \cite{dodsonElementalSustainabilityTotal2012}. Those of uranium (used for nuclear energy production) as well as cadmium and nickel (used in batteries) may be depleted within 50 to 100 years (\emph{ibid.}). The depletion of other resources like oil, coal or wild fish is a well-known issue often covered in the media. The depletion of phosphate rock is another less covered ongoing issue threatening agriculture worldwide \cite{cooperFutureDistributionProduction2011}.
+
+\subsection{Pollution}
+\label{sec:pollution}
+Pollution is defined as the introduction of physical (e.g. radiation, chemical substances) or biological (e.g. manure, seeds) agents into an ecosystem to an amount it cannot be absorbed, hence leading to its adverse disruption {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Pollution can be either natural (like the disastrous \href{https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens}{eruption of Mount St. Helens} in 1980 and reducing hundreds of square miles to wasteland) or anthropogenic (like the ``\href{https://en.wikipedia.org/wiki/Smog}{smog}" affecting the health of citizen in urban environments). It can either be accidental (like the \href{https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster}{Fukushima nuclear disaster}) or chronic (like the smog, once again). Its causes can either be local (like in the case of the \href{https://en.wikipedia.org/wiki/Hinkley_groundwater_contamination}{Hinkley groundwater contamination}) or dispersed (like the \href{https://en.wikipedia.org/wiki/Marine_debris}{omnipresence of long-lasting waste in oceans}). Among the most often considered pollutions of the anthropogenic, chronic and dispersed type are {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}:
+\begin{itemize} % add examples or news for each of the examples (mer de plastic en espagne, protocole de montreal...)
+	\item \href{https://en.wikipedia.org/wiki/Eutrophication}{eutrophication}: excessive growth of algae or plants in a body of water resulting from the excessive intake of nutrients such as nitrates or phosphates.
+	\item \href{https://en.wikipedia.org/wiki/Acid_rain}{acid rains}: unusual acidity of rainfalls due to emissions of sulfur dioxide and nitrogen oxyde in the air
+	\item \href{https://en.wikipedia.org/wiki/Ozone_depletion}{ozone hole}: depletion of the stratospheric ozone layer at Earth's poles due to the emission of ozone depleting substances such as CFCs, leading to a reduced share of UV radiation dispersed by the ozone layer. 
+	\item \href{https://en.wikipedia.org/wiki/Smog}{smog}: noxious smoky fog hitting dense urban areas, composed of airborne particles and chemical compounds generated by combustion and leading to respiratory issues. 
+	\item \href{https://en.wikipedia.org/wiki/Global_warming}{global warming}: rise in the average temperature of the Earth's surface resulting from an increased atmospheric greenhouse effect due to the massive airborne release of greenhouse gases such as carbon dioxide and or methane
+	\item \href{https://en.wikipedia.org/wiki/Light_pollution}{light pollution}: high concentration of misdirected light at night in densely populated areas which may cause diffuse and chronic adverse effects on human health and disrupts wild life (e.g. bird migration) 
+	\item \href{https://en.wikipedia.org/wiki/Land_use}{land use}: anthropogenic transformation of the natural terrestrial environment into functional spaces, leading to various adverse effects such as reduction of biodiversity, soil erosion, and water quality reduction. 
+\end{itemize}
+These examples show that there isn't \emph{one} pollution but rather a variety of ways ecosystems can be affected by anthropogenic activities. Different effects may even influence each other and be produced by the same agents, like the ozone depletion and global warming having complex interrelations and both being influenced by CFC emissions. Pollution may also affect complex sets of resources in a way that is not always understood, like global warming not only affecting weather conditions, but fresh water stock, emerged land, biological stock etc...
+
+\subsection{Measuring environmental impacts}
+\label{sec:context}
+Unfortunately, there is no global reference of resources that need to be preserved from depletion. One reason is the absence of agreement on what is to be considered as an important resource. Some people would have directly thought about the well-being of bugs and worms in the garden analogy, others wouldn't. Opinions may differ whether the well-being of bugs is important, whether the available garden area is more important than the well-being of bugs, or whether these things are important at all. This also illustrates that there is no consensus on the relative importance of resources. Is it worse to contribute to ozone layer depletion or to the disruption of bee colonies? {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} All this is the expression of ethical values underpinning different positions in the debate between strong and weak sustainability. Another reason is the partly unequal global distribution of resources, making them differently critical for local populations: some regions have enough fresh water not to care about it, some countries have enough oil not to care about energy. A third reason is the absence of agreement on mechanisms to allocate critical resources, which is an utterly political topic. 
+
+There is no global reference of pollutions that need to be mitigated as well. One reason is that some of them are localized, such as smog and light pollution only affecting urban areas. Whether pollution is considered as detrimental also depends on the perceived criticality of the resources involved in the affected ecosystem---and we have seen that there is no global consensus on that. Nevertheless, there are examples of measures to mitigate specific pollutions at global level, such as the \href{https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change}{United Nations Framework Convention on Climate Change}, or the \href{https://en.wikipedia.org/wiki/Montreal_Protocol}{Montreal Protocol on Substances that Deplete the Ozone Layer}. A larger number and variety of agreements can be found at regional level, like the legally binding \href{https://en.wikipedia.org/wiki/European_emission_standards}{European emission standards for new vehicles} or more local levels. 
+
+In spite of this lack of consensus, different approaches have been developed to define indicator sets or aggregated indicators of environmental impacts, such as \href{https://www.pre-sustainability.com/download/EI99_Manual.pdf}{EI99} \cite{consultants2000eco}, Impact 2002+ \cite{jollietIMPACT2002New2003}, ILCD 2011 or \href{https://www.leidenuniv.nl/cml/ssp/publications/recipe_characterisation.pdf}{ReCiPe 2008} \cite{goedkoop2009recipe} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. These indicators allow masking the complexity of environmental impacts behind a single or a few summarizing figures. They are useful for practitioners wanting to take environmental impact into account in decision making without being environmental experts or needing to take position on the relative importance of environmental impacts on behalf of their customers. Nonetheless, these indicators cannot account for the whole complexity of eco-systemic mechanisms. They are based on simplified models and ethical assumptions. Practitioners still need to make a choice between these indicators and apply them, which still requires some expertise.
+
+\subsection{About irreversibility, or why less is better}
+\label{sec:irreversibility}
+Thermodynamic delivers us nice concepts to bypass this difficulty and to find simpler concepts to lean upon. In thermodynamical terms, depletion of resources can be termed as creation of \emph{entropy}. And the second law of thermodynamics tells us an interesting thing about entropy: in a closed system, it inescapably increases.
+
+Let's apply this to the garden analogy. Suppose now you don't need the hole anymore and want to put everything back in place. You can restore the previous situation by putting the heap back in the hole. The result will however only \emph{approximate} the original situation: you will still have a discontinuity in the grass where the hole was and eventually a damaged grass where the heap was. Restoring the soil and grass in \emph{exactly} the same condition would require way more time and energy than what was necessary to dig the hole (e.g. you will eventually need to grow new grass). Because, in thermodynamical terms, what you want to do is to remove from the system the entropy you added by digging the hole. Removing entropy from a closed system requires creating elsewhere more entropy than the amount you want to remove. The domain of water management delivers another illustration of this principle of irreversibility {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}: mixing freshwater with any kind of liquid pollutant is easy and barely requires energy. But reversing the process, i.e. separating the liquids, is difficult and may require a lot of energy. What thermodynamics says, in other words: the energy required to mess up something is lower than those required to tidy it up.
+
+Another interpretation of the second law of thermodynamics is that creating order somewhere is inescapably bond to creating more disorder somewhere else. The more organized you want the matter to get, the more disorder you have to create somewhere else. An illustration of this is provided by the semiconductor industry: the production of a 2g microchip, which embeds a fairly high organisation of matter requiring high material purity, requires more than 1.7kg of matter \cite{williamsKilogramMicrochipEnergy2002}. In other words, only 1.1\% of all matter involved in the production process ends up in the final product, 98.9\% turns out to be waste. Creating a platinum ring requires refining approx. 100kg of ores \cite{erkmanVersEcologieIndustrielle2004}, building a car 70t \cite{janinDemarcheEcoconceptionEntreprise2000}, sending an SMS 600g \cite{federico2001mips}. Creating fancy things creates huge messes. 
+
+Understanding environmental impact as entropy amounts to say that every activity has an environmental impact, which is irreversible \cite{jackson2013material}\textsuperscript{\color{Magenta}[Extra reading]}. Trying to restore some resources (to ``recycle'' them) would only make the whole set of resources worse. Consequently, the best way to avoid environmental impact is to reduce activity. Less is better. In other words, the more social value is created out of the minimum activity, the better. Sustainability is about reducing waste, understood in the sense of the consumption of a resource which is not bound to human satisfaction.
+
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
+\setlength{\parskip}{1em}
+{\emph{Take-aways of this subsection:
+\setlength{\parskip}{0em}
+\begin{itemize}
+  \item The environmental issue considered in sustainability is \emph{resource depletion}*
+	\item Resources can either be depleted by \emph{consumption}* or by \emph{pollution}*
+	\item Mechanisms of environmental disruption are diverse and interrelated
+	\item There is no consensus on which and how much resources should be saved
+	\item Sustainability is a relative concept
+	\item \emph{Environmental impact}* are marginal contributions to resource depletion.
+	\item Every activity has an environmental impact, even resource restoration activities
+	\item Less is better
+\end{itemize}
+}}
+
+\begin{comment}
+\setlength{\parskip}{1em}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. In groups of 4 people, discuss which environmental impacts you consider as important, how your views may fit with your future job sheet and the local conditions you are living in. Try to mix nationalities by constituting the groups, this will increase the chances to have conflicting opinions and enhance discussion.}
+\setlength{\parskip}{0em}
+\end{comment}
+}
+
+\section{Eco-efficiency of products}
+\label{sec:tbd}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Talking about products, where are the environmental impacts coming from? When my TV is off, it does not do anything harmful to anybody, it is just an inert object. That is, the mere existence of products does not create environmental impacts. Rather, products are `middle things' between social needs (watching TV) and large and complex networks of \emph{activities} caused by the realisation of these needs: me having a TV was only possible because somebody \emph{fabricated} it; me \emph{watching} it requires somebody to \emph{make} electricity and \emph{bring} it to the socket my TV is plugged on; me ultimately \emph{disposing} the TV will need somebody to \emph{process} it so it does not come back to the environment and leak harmful substances, etc. As we said earlier: each activity has environmental impacts. The environmental impacts associated with products sums up to those of all activities which contributed to the delivery of its specific functionality. The set of all these activities is called the \emph{product life cycle}*. The specific functionality is called the \emph{functional unit}*. The ratio between the sum of all impacts created within the product life cycle and its functional unit is called the \emph{eco-efficiency}*. Improving the sustainability of a product amounts to improve its eco-efficiency, which requires analyzing both the product life cycle and the functional unit.
+
+\subsection{Product life cycle}
+\label{sec:plc}
+The concept of product life cycle is generally represented as a circle of chronological stages {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}\footnote{not to be mistaken with the \href{https://en.wikipedia.org/wiki/Product_life-cycle_management_(marketing)}{product life cycle used in innovation management}}. Typical stages are:
+\begin{itemize}
+	\item Raw materials extraction: resources are taken from their natural state, eventually refined and transformed into semi-manufactured products (e.g. bauxite is excavated, processed to produce alumina, smelted to product raw metal aluminium blocks)
+	\item Manufacturing: semi-finished products are turned into functional components with the help of diverse processes (milling, casting, etc.), which are ultimately assembled into finished products and packaged for distribution
+	\item Transport and distribution: products are transported from point of production to point of use, eventually involving diverse intermediaries (retailers, warehouses, etc.)
+	\item Use: products deliver their functionality for the end-user, eventually in combination with other products or consumables (ink cartridges and electricity), leading to product fatigue, eventually requiring maintenance, reparation, and overhaul
+	\item End-of-life: discarded products can be repaired, remanufactured, their materials recycled, hence avoiding the need to extract raw materials for future product generations, or sent to landfill.
+\end{itemize}
+
+This representation is simplistic in the sense that it suggests that a product life cycle is either a linear process with a single entry point (raw material extraction) and end point (landfill) or a perfectly circular process. In reality, the product life cycle is rather a complex network of interconnected activities taking inputs from different entry points and producing different products as well as more or less wished by-products {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. The example of all processes involved in the production of bread shows how complicated life cycles can be even for simple products {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]} \cite{anderssonLifeCycleAssessment1999}. The example of meat and milk production illustrate as well that product life cycles are interrelated: meat is a by-product of milk and milk is a by-product of meat. The life cycle of meat cannot be considered isolated from those of milk. The interrelatedness of product lifecylces is also illustrated by the \href{https://www.ted.com/talks/thomas_thwaites_how_i_built_a_toaster_from_scratch#t-251685}{``Toaster Project'' from Thomas Twaites} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. In this talk, the author explains how he tried to build a toaster from scratch and greatly failed. His failure illustrates that it is nearly impossible to produce something witout using other human-made objects.
+
+Every activity of a product lifecycle involve what are called \emph{elementary} and \emph{non-elementary flows}*. Elementary flows are either direct inputs from natural resources (e.g. O\textsubscript{2} intake in combustion) or direct outputs to the environment (e.g. consequent NO\textsubscript{x} emission back in the air). Non-elementary flows are anthropogenically produced things, i.e. which are the product of human intervention (e.g. diesel, TV). The environmental impact of a product is the sum of all elementary flows of all processes involved in its life cycle. 
+
+\subsection{Functional unit}
+\label{sec:fu}
+The functional unit is a measure of the amount of functionality delivered by a product. This amount is defined in both qualitative and quantitative terms: \emph{what} is delivered by the product and \emph{how much} of it it can deliver. For example, the functional unit of a pen is not only given by its specific function---which is to draw a visible line on a predefined range of materials---but also by the total length it can draw (e.g. 2km) {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. 
+
+The quantitative part of the functional unit is important because it delivers the only reference allowing to compare the eco-efficiency of products objectively. If two pens deliver the same functional quality (same line characteristics such as darkness and regularity), have the same environmental impacts, but one of them can draw half the length of the other, then it is clear which of them is the most eco-efficient. It is more difficult---and often does not make any sense---to compare the environmental impacts of two products having diverging functions. What if two pens deliver lines of different thicknesses? What creates the most usage value: a car or a cell phone?
+
+The extent to which the potential quantity of functionality a product can deliver is actually realised depends on usage patterns. This encompasses on the one side the appropriateness of the usage but also on the willingness of the user to \emph{exhaust} the potential of a product. A typical example of this phenomenon is the cell phone: there is a high probability that you have one of them sleeping in one of your drawers at home \cite{hanson2014s} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. These products can still deliver their functionality, but they have become obsolete, either for structural reasons (switch from 3G to 4G) or as a result of changing fashion (new iPhone coming out), among other possible reasons. Therefore, it is not only interesting to have a look at the potential quantity of functionality delivered by a product, but also at the extent to which users turn this potential into reality. 
+
+\subsection{The role of design in product eco-efficiency}
+\label{sec:productdesign}
+There is a word of saying that 80\% of the costs of a product are engaged by its design, the rest being influenced by the later intervention of other stakeholders of the product life cycle, like the manufacturer and the user \cite{mcaloone2009environmental} {\color{blue}[\stepcounter{slide}Slide \arabic{slide}]}. Another common place is that the cost of changes increase with time along the product development process \cite{luttroppEcoDesignTenGolden2006a}. The same applies to the environmental impacts. This is due to the fact that the essence of design is to make \emph{prescriptive} decisions. When you design a product, you decide how the product should be manufactured (because you define materials, shapes, and assembly principles) and used. You therefore decide upon the cost and the environmental impacts of manufacturing and use. Stakeholders of the product life cycle still have a certain degree of freedom, yet constrained by your decisions. Similarly, decisions taken at the early design stages constraints the degrees of freedom at later stages. Hence, the best time to think about eco-efficiency is in the early design stages. 
+
+What about the role of the designer/engineer in eco-efficiency? We have seen in the lecture on design theory that, because design problems are `wicked problems', requirements cannot be taken for granted as an input of design. Design problems do not precede design solutions and the role of the design activity is to refine both the problem and the solution. Designers are no neutral agents transforming fully defined needs into products. Through their action, guided by their own professional ethics, they decide to put more or less weight on certain requirements, to omit some, to add others.
+
+% end of subsection - time for take aways and exercise
+{\color{PineGreen}
+\setlength{\parskip}{1em}
+{\emph{Take-aways of this subsection:
+\setlength{\parskip}{0em}
+\begin{itemize}
+  \item The sustainability of a product is given by its \emph{eco-efficiency}*
+  \item Eco-efficiency is the ratio between two quantities: impact and function
+	\item The environmental impacts of a product are generated by all \emph{elementary flows}* in the \emph{product life cycle}*.
+  \item The quantity of function is given by the \emph{functional unit}*
+  \item You can only compare the eco-efficiency of products having the same function
+	\item There is no sustainable product, just products that are more sustainable than others in delivering the same function.
+  \item The earlier you think about sustainability in the product development process, the better.
+\end{itemize}
+}}
+
+\begin{comment}
+\setlength{\parskip}{1em}
+\emph{Exercise \stepcounter{exercise}\arabic{exercise}. Try to define in which terms the eco-efficiency of a car could be defined. How does the product life cycle looks like? What are the major elementary flows? What is the functional unit of a car? Where could be impacts avoided or functionality gained?}
+\setlength{\parskip}{0em}
+\end{comment}
+}
+
+\section*{Credits}
+\label{sec:credits}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+These works are released under a \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License}.
+
+\bibliographystyle{ieeetr}
+\bibliography{../References}
+\end{document}
