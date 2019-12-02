@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  10 DEC 2018 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  2 DEC 2019 13:18
 entering extended mode
 **./Script11.tex
 (Script11.tex
@@ -752,31 +752,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/jb2971/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] Exclud
 ing 'comment' comment. [3] [4] [5]
-Excluding 'comment' comment. [6] [7] [8] [9] [10] [11]
-Excluding 'comment' comment. Excluding 'comment' comment. (Script11.bbl
-[12]) Excluding 'comment' comment.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+Excluding 'comment' comment. [6] [7] [8]
+Overfull \hbox (5.19385pt too wide) in paragraph at lines 183--185
+[]\OT1/cmr/m/n/10 OSPD pro-cesses are not com-pleted when a sta-ble prod-uct ve
+r-sion is reached,
+ []
+
+[9] [10] Excluding 'comment' comment. Excluding 'comment' comment.
+(Script11.bbl [11]) Excluding 'comment' comment.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (Script11.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `Script11.out' has not changed.
-(rerunfilecheck)             Checksum: 324E316D34F2211D616DBB2532978985;1032.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
+(rerunfilecheck)             Checksum: 08291C2A5C87EC3D3A466BBC3858251C;944.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 6251 strings out of 493305
- 92020 string characters out of 3129367
- 175577 words of memory out of 3000000
- 9695 multiletter control sequences out of 15000+200000
+ 6245 strings out of 493305
+ 91958 string characters out of 3129367
+ 175561 words of memory out of 3000000
+ 9694 multiletter control sequences out of 15000+200000
  10257 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,35p,2112b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,8n,35p,2112b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1000.pk> <C:\Users\jb2971\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\tcti1000.pk><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/font
@@ -795,9 +796,9 @@ ers/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti8.pfb><C:/Users/jb2971/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti9.pfb>
-Output written on Script11.pdf (13 pages, 260891 bytes).
+Output written on Script11.pdf (12 pages, 254871 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

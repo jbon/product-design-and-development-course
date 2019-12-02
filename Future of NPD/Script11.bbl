@@ -16,7 +16,7 @@ Y.~Benkler and H.~Nissenbaum, ``Commons-based {{Peer Production}} and
   pp.~394--419, 2006.
 
 \bibitem{chenDirectDigitalManufacturing2015a}
-D.~Chen, S.~Heyer, S.~Ibbotson, K.~Salonitis, J.~G. Steingr\'imsson, and
+D.~Chen, S.~Heyer, S.~Ibbotson, K.~Salonitis, J.~G. Steingr{\'i}msson, and
   S.~Thiede, ``Direct digital manufacturing: Definition, evolution, and
   sustainability implications,'' {\em Journal of Cleaner Production}, vol.~107,
   pp.~615--625, Nov. 2015.
@@ -25,7 +25,7 @@ D.~Chen, S.~Heyer, S.~Ibbotson, K.~Salonitis, J.~G. Steingr\'imsson, and
 F.~T. Piller, A.~Vossen, and C.~Ihl, ``From {{Social Media}} to {{Social
   Product Development}}: {{The Impact}} of {{Social Media}} on
   {{Co}}-{{Creation}} of {{Innovation}},'' {{SSRN Scholarly Paper}} ID 1975523,
-  {Social Science Research Network}, Rochester, NY, Dec. 2011.
+  {Social Science Research Network}, {Rochester, NY}, Dec. 2011.
 
 \bibitem{colomboOpenInnovationMeets2016}
 E.~F. Colombo, {\em Open Innovation Meets {{Changeability}}: {{Strategic}}
@@ -64,11 +64,16 @@ J.~Bonvoisin, R.~Mies, R.~Stark, and J.-F. Boujut, ``What is the ``{{Source}}''
   of {{Open Source Hardware}}?,'' {\em Journal of Open Hardware}, vol.~1,
   no.~1, p.~18, 2017.
 
-\bibitem{kyriakouKnowledgeReuseCustomization2017}
-H.~Kyriakou, J.~V. Nickerson, and G.~Sabnis, ``Knowledge {{Reuse}} for
-  {{Customization}}: {{Metamodels}} in an {{Open Design Community}} for {{3D
-  Printing}},'' {{SSRN Scholarly Paper}} ID 2924083, {Social Science Research
-  Network}, Rochester, NY, Feb. 2017.
+\bibitem{bonvoisinMeasuringOpennessOpen2018a}
+J.~Bonvoisin and R.~Mies, ``Measuring {{Openness}} in {{Open Source Hardware}}
+  with the {{Open}}-o-{{Meter}},'' {\em Procedia CIRP}, vol.~78, pp.~388--393,
+  Jan. 2018.
+
+\bibitem{miesHarnessingSynergyPotential2018}
+R.~Mies, J.~Bonvoisin, and R.~Jochem, ``Harnessing the {{Synergy Potential}} of
+  {{Open Source Hardware Communities}},'' in {\em Open {{Up}} or {{Close
+  Down}}! {{How Co}}-Creation Reshapes Business and Society in Bottom-up
+  Economics} (T.~Redlich, M.~Moritz, and J.~P. Wulfsberg, eds.), 2018.
 
 \bibitem{corbet2012linux}
 J.~Corbet, G.~{Kroah-Hartman}, and A.~McPherson, ``Linux kernel development:

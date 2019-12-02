@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}Design for everyone}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}A short history of manufacturing}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.1}From mass production to personal fabrication}{2}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Democratization of design}{3}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Maker culture}{3}{subsection.1.3}
 \contentsline {section}{\numberline {2}Participation in firm-led product development}{4}{section.2}
@@ -8,15 +8,10 @@
 \contentsline {subsection}{\numberline {2.3}Examples of crowdsourcing}{5}{subsection.2.3}
 \contentsline {section}{\numberline {3}Community-based product development}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Open Source Hardware}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}History and contemporary relevance}{8}{subsection.3.2}
-\contentsline {paragraph}{From software to hardware.}{8}{section*.2}
-\contentsline {paragraph}{OSH as a grassroots movement.}{8}{section*.3}
-\contentsline {paragraph}{OSH in businesses.}{8}{section*.4}
-\contentsline {subsection}{\numberline {3.3}Development process models in OSH}{9}{subsection.3.3}
-\contentsline {paragraph}{Evolutionary design.}{9}{section*.5}
-\contentsline {paragraph}{Public innovation.}{9}{section*.6}
-\contentsline {paragraph}{Open design.}{9}{section*.7}
-\contentsline {subsection}{\numberline {3.4}Challenges of open design}{10}{subsection.3.4}
-\contentsline {section}{\numberline {4}Outlook: tomorrow's designer}{12}{section.4}
-\contentsline {paragraph}{Thesis 1.}{12}{section*.8}
-\contentsline {paragraph}{Thesis 2.}{12}{section*.9}
+\contentsline {subsection}{\numberline {3.2}Examples of OSH}{8}{subsection.3.2}
+\contentsline {paragraph}{OSH as a grassroots movement.}{8}{section*.2}
+\contentsline {paragraph}{OSH in businesses.}{8}{section*.3}
+\contentsline {subsection}{\numberline {3.3}Implications in terms of PDP}{9}{subsection.3.3}
+\contentsline {section}{\numberline {4}Outlook: tomorrow's designer}{10}{section.4}
+\contentsline {paragraph}{Thesis 1.}{10}{section*.4}
+\contentsline {paragraph}{Thesis 2.}{11}{section*.5}
