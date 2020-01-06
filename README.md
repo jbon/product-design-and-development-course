@@ -2,11 +2,12 @@
 
 This repository contains the scripts of my lectures within the module *Product Design And Development* (Master of Engineering *Integrated Design and Engineering*) at University of Bath. This is work in progress and I will add lectures gradually. For now, available contents are:
 
+ * [Design theory](https://github.com/jbon/product-design-and-development-course/blob/master/Design%20theory/Design%20Theory.pdf)
+ * [Citizen participation innew product development](https://github.com/jbon/product-design-and-development-course/blob/master/Future%20of%20NPD/Script11.pdf) 
  * [Sustainability and products](https://github.com/jbon/product-design-and-development-course/blob/master/Sustainability%20and%20products/Sustainability%20and%20products.pdf)
  * [Sustainabile product design](https://github.com/jbon/product-design-and-development-course/tree/master/Sustainable%20product%20design)
  * [Systems design](https://github.com/jbon/product-design-and-development-course/blob/master/Systems%20design/Script9.pdf)
- * [Design theory](https://github.com/jbon/product-design-and-development-course/blob/master/Design%20theory/Design%20Theory.pdf)
- * [Citizen participation innew product development](https://github.com/jbon/product-design-and-development-course/blob/master/Future%20of%20NPD/Script11.pdf)
+
 
 ### Legend
 Each script contains:
