@@ -1,6 +1,6 @@
 ### Contents
 
-This repository contains the scripts of my lectures within the module *Product Design And Development* (Master of Engineering *Integrated Design and Engineering*) at University of Bath. This is work in progress and I will add lectures gradually. For now, available contents are:
+This repository contains the scripts of my lectures within the unit ME30294 [Product Design And Development](http://www.bath.ac.uk/catalogues/2014-2015/me/ME30294.html) (Master of Engineering *Integrated Design and Engineering*) at University of Bath. This is work in progress and I will add lectures gradually. For now, available contents are:
 
  * [Design theory](https://github.com/jbon/product-design-and-development-course/blob/master/Design%20theory/Design%20Theory.pdf)
  * [Citizen participation innew product development](https://github.com/jbon/product-design-and-development-course/blob/master/Future%20of%20NPD/Script11.pdf) 
